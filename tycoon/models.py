@@ -17,16 +17,16 @@ class Item(models.Model):
 	charm = models.IntegerField(default=0)
 	surplus = models.IntegerField(default=0)
 	luck = models.IntegerField(default=0)
-	explanation = models.CharField()
+	explanation = models.CharField(max_length=20)
 
 class CodeToItem(models.Model):
 	code = models.CharField(max_length=20)
 	item = models.ForeignKey(Item)
 
 class Combination(models.Model):
-	item1 = models.ForeignKey(Item)
-	item2 = models.ForeignKey(Item)
-	new_item = models.ForeignKey(Item) 
+	item1 = models.ForeignKey(Item, related_name='item1')
+	item2 = models.ForeignKey(Item, related_name='item2')
+	new_item = models.ForeignKey(Item, related_name='new_item') 
 
 class Avatar(models.Model):
 	image = models.ImageField(upload_to="images/avatar")
