@@ -1,4 +1,13 @@
-<img src="{{ item.icon.url }}"><br>
-<p>Name: {{item.name}}<br>
-Strength: {{item.strength}}<br>
-explanation: {{item.explanation}}<br></p>
+<img src="{{ avatar.image.url }}"><br>
+
+<p>Name: {{avatar.name}}<br>
+Strength: {{avatar.strength}}<br>
+Intelligence: {{avatar.intelligence}}<br>
+Charm: {{avatar.charm}}<br>
+Surplus: {{avatar.surplus}}<br>
+Luck: {{avatar.luck}}<br></p>
+
+{% for i in clist %}
+	<img src="{{ i.item.icon.url }}">
+{% endfor %}
+

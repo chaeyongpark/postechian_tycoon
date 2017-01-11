@@ -1,11 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from .models import Item
+from .models import Item, Avatar, Contain
 
 def home(request):
 	return render(request, 'tycoon/home.html')
 
 def combination(request):
-	item = Item.objects.get(pk=1)
-	return render(request, 'tycoon/combination.html', {'item': item})
+	avatar = Avatar.objects.get(pk=1)
+	class1_list = Contain.objects.filter(name__name__startswith="1class")
+	return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': class1_list})
