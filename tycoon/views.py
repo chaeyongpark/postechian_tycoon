@@ -1,6 +1,6 @@
+#-*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse
-
 from .models import Item, Avatar, Contain
 
 def home(request):
@@ -8,5 +8,5 @@ def home(request):
 
 def combination(request):
 	avatar = Avatar.objects.get(pk=1)
-	class1_list = Contain.objects.filter(name__name__startswith="1class")
+	class1_list = Contain.objects.filter(name__name__startswith='1분반')
 	return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': class1_list})

@@ -1,4 +1,5 @@
 from __future__ import unicode_literals
+from django.utils.encoding import python_2_unicode_compatible
 from django.db import models
 
 class User(models.Model):
@@ -6,12 +7,14 @@ class User(models.Model):
 	user_password = models.CharField(max_length=20)
 	is_pw_changed = models.BooleanField(default=False)
 
+@python_2_unicode_compatible
 class Title(models.Model):
 	name = models.CharField(max_length=20)
 
 	def __str__(self):
 		return self.name
 
+@python_2_unicode_compatible
 class Item(models.Model):
 	name = models.CharField(max_length=20)
 	icon = models.ImageField(upload_to='images/icon/') 
@@ -29,6 +32,7 @@ class CodeToItem(models.Model):
 	code = models.CharField(max_length=20)
 	item = models.ForeignKey(Item)
 
+@python_2_unicode_compatible
 class Combination(models.Model):
 	item1 = models.ForeignKey(Item, related_name='item1')
 	item2 = models.ForeignKey(Item, related_name='item2')
@@ -37,6 +41,7 @@ class Combination(models.Model):
 	def __str__(self):
 		return self.new_item.name + " = " + self.item1.name + " + " + self.item2.name
 
+@python_2_unicode_compatible
 class Avatar(models.Model):
 	name = models.CharField(max_length=20, default='chaeyong')
 	image = models.ImageField(upload_to='images/avatar/')
@@ -50,6 +55,7 @@ class Avatar(models.Model):
 	def __str__(self):
 		return self.name
 
+@python_2_unicode_compatible
 class Contain(models.Model):
 	name = models.ForeignKey(Avatar, db_index=True)
 	item = models.ForeignKey(Item)
