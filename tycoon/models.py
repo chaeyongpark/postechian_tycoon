@@ -28,9 +28,14 @@ class Item(models.Model):
 	def __str__(self):
 		return self.name
 
+@python_2_unicode_compatible
 class CodeToItem(models.Model):
 	code = models.CharField(max_length=20)
 	item = models.ForeignKey(Item)
+	explanation = models.CharField(max_length=30, default='Explanation')
+
+	def __str__(self):
+		return self.item.name
 
 @python_2_unicode_compatible
 class Combination(models.Model):
@@ -44,7 +49,8 @@ class Combination(models.Model):
 @python_2_unicode_compatible
 class Avatar(models.Model):
 	name = models.CharField(max_length=20, default='chaeyong')
-	image = models.ImageField(upload_to='images/avatar/')
+	image_f = models.ImageField(upload_to='images/avatar/', default='images/avatar/default.png')
+	image_b = models.ImageField(upload_to='images/avatar/', default='images/avatar/default.png')
 	strength = models.IntegerField(default=0)
 	intelligence = models.IntegerField(default=0)
 	charm = models.IntegerField(default=0)
