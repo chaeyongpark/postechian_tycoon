@@ -1,0 +1,21 @@
+.combination .img-responsive {
+	border: 5px solid #dbdbdb;
+}
+
+.combination .img-responsive.plus {
+	border: none;
+}
+
+.combination .glyphicon.glyphicon-plus {
+	font-size: 70px;
+	display: block;
+	text-align: center;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+img {
+	image-rendering: pixelated;
+}

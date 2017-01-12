@@ -37,6 +37,7 @@ class Combination(models.Model):
 	item1 = models.ForeignKey(Item, related_name='item1')
 	item2 = models.ForeignKey(Item, related_name='item2')
 	new_item = models.ForeignKey(Item, related_name='new_item') 
+	explanation = models.CharField(max_length=40, default='Explanation')
 
 	def __str__(self):
 		return self.new_item.name + " = " + self.item1.name + " + " + self.item2.name
