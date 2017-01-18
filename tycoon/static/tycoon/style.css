@@ -1,3 +1,43 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+/* CUSTOMIZE THE FOOTER
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: #5a5a5a;
+  margin-bottom: 70px;
+}
+
+footer {
+  border-top: 1px solid #dbdbdb;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+
+footer img {
+  display: inline-block;
+  width: 50px;
+  /*height: 50px;*/
+  margin: 0;
+}
+
+footer p{
+  margin-top: 5px;
+  text-align: right;
+}
+
+* { /** 폰트 영문 이름 지정 **/
+ font-family: 'Jeju Gothic', sans-serif;
+}
+
 .combination .img-responsive {
 	border: 5px solid #dbdbdb;
 }
@@ -12,10 +52,24 @@
 	text-align: center;
 }
 
+.combination .item {
+	padding: 15px;
+}
+
+.combination #item_basket {
+	padding: 5px;
+	margin: 5px;
+	border: 3px dotted #dbdbdb;
+}
+
 .img-responsive {
 	width: 100%;
 }
 
 img {
 	image-rendering: pixelated;
+}
+
+img.non-pixel {
+	image-rendering: auto;
 }

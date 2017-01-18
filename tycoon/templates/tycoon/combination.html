@@ -111,10 +111,39 @@ Luck: {{avatar.luck}}<br></p>
 							<img src="media/images/icon/youngjjal.png" alt="영짤" class="img-responsive img-rounded">
 						</div>
 					</div>
+					<br>
+					<br>
+					<h1 class="text-center">소유중인 아이템</h1>
+					<div class="row" id="item_basket">
+						{% for i in clist %}
+						<div class="col-xs-3 item">
+							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" class="img-responsive img-rounded">
+						</div>
+						{% endfor %}
+					</div>
+					<br>
+					<br>
 				</div>
 			</div>
 
 		</div>
+
+		<footer class="footer">
+		  <div class="container">
+		  	<div class="row">
+		  		<div class="col-sm-6">
+				    <a href="http://fb.com/poapper" target="_black">
+					    <img alt="PoApper" src="{% static 'tycoon/poapper.png' %}" class="non-pixel"/>
+					  	Server provided by PoApper
+				  	</a>
+			  	</div>
+		  		<div class="col-sm-6">
+				    <p>&copy; 2017년도 새내기새로배움터 준비위원회 Init.</p>
+				    <p>Written by Chaeyong Park & Beomsu Lim</p>
+			    </div>
+		  	</div>
+		  </div>
+		</footer>
 
 	</body>
 </html>
