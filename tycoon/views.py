@@ -8,5 +8,5 @@ def home(request):
 
 def combination(request):
 	avatar = Avatar.objects.get(pk=1)
-	class1_list = Contain.objects.filter(name__name__startswith='15분반')
+	class1_list = Contain.objects.filter(name__name__startswith='chaeyong').order_by('item')
 	return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': class1_list})
