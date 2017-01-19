@@ -57,7 +57,8 @@ class Avatar(models.Model):
 	charm = models.IntegerField(default=0)
 	surplus = models.IntegerField(default=0)
 	luck = models.IntegerField(default=0)
-	cur_title = models.ForeignKey(Title, null=True, blank=True)
+	cur_title = models.ForeignKey(Title, related_name='cur_title', null=True, blank=True)
+	title_list = models.ManyToManyField(Title, related_name='title_list', blank=True)
 
 	def __str__(self):
 		return self.name

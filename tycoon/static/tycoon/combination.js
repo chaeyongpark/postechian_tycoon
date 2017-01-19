@@ -50,9 +50,9 @@ var itemEventHandler = function(e) {
 		$.ajax({
 			method: "POST",
 			url: "/combination",
-			data: { left: left_contains, right: right_contains }
+			data: { left: left_contains, right: right_contains },
 		}).done(function(data) {
-			alert(data.foo);
+			alert(data.nitem);
 		});
 	}
 }

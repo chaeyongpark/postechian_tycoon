@@ -7,7 +7,9 @@
 		{% include "tycoon/nav.html" %}
 
 		<div class="character">
-			<p>HOME</p>			
+			<p>{{ avatar.name }}</p></br>
+			<img src="{{ avatar.image_f.url }}" class="image-responsive">
+			<img src="{{ avatar.image_b.url }}" class="image-responsive">
 		</div>
 
 		{% include "tycoon/footer.html" %}

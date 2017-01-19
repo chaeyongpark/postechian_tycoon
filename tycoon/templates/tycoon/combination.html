@@ -2,78 +2,11 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>POSTECHian Tycoon - 2017 Init</title>
-
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	    <script
-		  src="https://code.jquery.com/jquery-3.1.1.min.js"
-		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-		  crossorigin="anonymous"></script>
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-		<link rel="stylesheet" type="text/css" href="{% static 'tycoon/style.css' %}" />
-
-	</head>
-	<body>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">POSTECHian Tycoon</a>
-			    </div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">우리 분반</a></li>
-						<li><a href="#">조합하기</a></li>
-						<li><a href="#">코드 입력</a></li>
-						<li><a href="#">아이템 도감</a></li>
-						<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">다른 분반 <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">1분반</a></li>
-							<li><a href="#">2분반</a></li>
-							<li><a href="#">3분반</a></li>
-							<li><a href="#">4분반</a></li>
-							<li><a href="#">5분반</a></li>
-							<li><a href="#">6분반</a></li>
-							<li><a href="#">7분반</a></li>
-							<li><a href="#">8분반</a></li>
-							<li><a href="#">9분반</a></li>
-							<li><a href="#">10분반</a></li>
-							<li><a href="#">11분반</a></li>
-							<li><a href="#">12분반</a></li>
-							<li><a href="#">13분반</a></li>
-							<li><a href="#">14분반</a></li>
-							<li><a href="#">15분반</a></li>
-						</ul>
-						</li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+	{% include "tycoon/header.html" %}
+		<body>
+		{% include "tycoon/nav.html" %}
 
 		<div class="container combination">
-
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
 					<div class="row">
@@ -111,22 +44,7 @@
 
 		</div>
 
-		<footer class="footer">
-		  <div class="container">
-		  	<div class="row">
-		  		<div class="col-sm-6">
-				    <a href="http://fb.com/poapper" target="_black">
-					    <img alt="PoApper" src="{% static 'tycoon/poapper.png' %}" class="non-pixel"/>
-					  	Server provided by PoApper
-				  	</a>
-			  	</div>
-		  		<div class="col-sm-6">
-				    <p>&copy; 2017년도 새내기새로배움터 준비위원회 Init.</p>
-				    <p>Written by Chaeyong Park & Beomsu Lim</p>
-			    </div>
-		  	</div>
-		  </div>
-		</footer>
+		{% include "tycoon/footer.html" %}
 
 		<script src="{% static 'tycoon/combination.js' %}"></script>
 

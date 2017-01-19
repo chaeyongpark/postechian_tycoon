@@ -5,6 +5,10 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
+	url(r'^avatar', views.avatar, name='avatar'),
 	url(r'^combination', views.combination, name='combination'),
+	url(r'^codeToItem', views.codeToItem, name='codeToItem'),
+	url(r'^itemBook', views.itemBook, name='itemBook'),
+	url(r'^mission', views.mission, name='mission'),
 	url(r'^$', views.home, name='home'),
 ]
