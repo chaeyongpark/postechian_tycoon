@@ -52,7 +52,11 @@ var itemEventHandler = function(e) {
 			url: "/combination",
 			data: { left: left_contains, right: right_contains },
 		}).done(function(data) {
-			alert(data.nitem);
+			if (data.nitem.nid == 0) {
+			}
+			else {
+				$('#item-combined img').append("<img src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
+			}
 		});
 	}
 }

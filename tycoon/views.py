@@ -2,6 +2,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from .models import Item, Avatar, Contain, Combination
+from django.core import serializers
 
 def home(request):
 	return render(request, 'tycoon/home.html')
@@ -21,13 +22,15 @@ def combination(request):
 		try:
 			nitem = Combination.objects.get(item1__name=litem.item.name, item2__name=ritem.item.name)
 			print nitem.new_item
-			nid = Item.objects.get(name=nitem.new_item.name).id
+			print nitem.new_item.icon
+			combined = {'id': Item.objects.get(name=nitem.new_item.name).id, 'url': nitem.new_item.icon.url}
 
 		except :
-			nid = 0
+			combined = {'id': 0, 'url': 'null'}
 
 		finally:
-			return JsonResponse({'nitem': nid})
+			#res = serializers.serialize('json', combined)
+			return JsonResponse({'nitem': combined})
 
 def avatar(request):
 	avatar = Avatar.objects.get(pk=1)
