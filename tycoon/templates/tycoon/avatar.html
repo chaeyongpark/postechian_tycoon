@@ -7,13 +7,21 @@
 		{% include "tycoon/nav.html" %}
 
 		<div class="character">
-			<p>{{ avatar.name }}</p></br>
-			<img src="{{ avatar.image_f.url }}" class="image-responsive">
-			<img src="{{ avatar.image_b.url }}" class="image-responsive">
+
+			<div class="container">
+
+				<div class="row">
+					<h2 class="text-center">{{ avatar.name }}</h2></br>
+					<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4">
+						<img src="{{ avatar.image_f.url }}" class="img-responsive">
+					</div>
+					<div class="col-xs-6 col-xs-offset-3">
+						<img src="{{ avatar.image_b.url }}" class="img-responsive">
+					</div>
+				</div>
+			</div>
 		</div>
 
 		{% include "tycoon/footer.html" %}
-
-		<script src="{% static 'tycoon/combination.js' %}"></script>
 	</body>
 </html>

@@ -52,10 +52,10 @@ var itemEventHandler = function(e) {
 			url: "/combination",
 			data: { left: left_contains, right: right_contains },
 		}).done(function(data) {
-			if (data.nitem.nid == 0) {
+			if (data.nitem.id == 0) {
 			}
 			else {
-				$('#item-combined img').append("<img src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
+				$('img#item-combined').replaceWith("<img id='item-combined' src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
 			}
 		});
 	}
@@ -71,6 +71,8 @@ $("#item-left").bind("click", function(e) {
 		temp.children().first().bind("click", itemEventHandler)
 		$("#item_basket").prepend(temp);
 		left = false;
+
+		$('img#item-combined').replaceWith("<img id='item-combined' src='static/tycoon/white.png' class='img-responsive img-rounded'>");
 	}
 });
 
@@ -82,5 +84,7 @@ $("#item-right").bind("click", function(e) {
 		temp.children().first().bind("click", itemEventHandler)
 		$("#item_basket").prepend(temp);
 		right = false;
+
+		$('img#item-combined').replaceWith("<img id='item-combined' src='static/tycoon/white.png' class='img-responsive img-rounded'>");
 	}
 });
