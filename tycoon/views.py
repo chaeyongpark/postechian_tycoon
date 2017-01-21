@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from .models import Item, Avatar, Contain, Combination
+from .models import Item, Avatar, Contain, Combination, CodeToItem
 from django.views.decorators.csrf import csrf_protect
 
 def home(request):
@@ -42,14 +42,32 @@ def codeToItem(request):
 		return render(request, 'tycoon/codeToItem.html')
 	
 	elif request.method == 'POST':
-		print request.POST
-	 	return render(request, 'tycoon/codeToItem.html')	
+		res_code = request.POST.get('codeToItem', False)
+		if res_code == False:
+			message = 'Wrong Code'
+		else:
+			try:
+				print res_code 
+				code_to_item = CodeToItem.objects.get(code=res_code)
+				c = Contain(name=Avatar.objects.get(pk=1), item=code_to_item.item)
+				c.save()
+				message = code_to_item.item.name
+				print message
+			except:
+				message = 'Wrong Code'
+				print message
+	 	return render(request, 'tycoon/codeToItem.html', { 'message': message })	
 
 def mission(request):
 	return render(request, 'tycoon/mission.html')
 
 def itemBook(request):
-	return render(request, 'tycoon/itemBook.html')
+	item_list = Item.objects.all()
+	item_name_list = [item_list[i].name for i in range(len(item_list))]
+	own_list = Avatar.objects.get(pk=1).item_list.all()
+	own_name_list = [own_list[i].name for i in range(len(own_list))]
+	c = [item_name_list[i] in own_name_list for i in range(len(item_list))]
+	return render(request, 'tycoon/itemBook.html', { 'own_list': c, 'item_list': item_list})
 
 def use(request):
 	avatar = Avatar.objects.get(pk=1)

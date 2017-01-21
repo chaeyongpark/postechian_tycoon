@@ -6,12 +6,19 @@
 	<body>
 		{% include "tycoon/nav.html" %}
 
-		<div class="itemBook">
-			<p>item book</p>			
+		<div class="container">
+			<div class"row" id="item_book">
+				{% for i in own_list %}
+				<div class="item col-xs-2">
+					{% if i == true %}
+						<img src="{{ item_list[i].icon.url }}" alt="{{ item_list[i].name }}" class="img-responsive img-rouded">
+					{% else %}	
+						<img src="{{ item_list[i].icon.url }}" alt="{{ item_list[i].name }}" class="gray img-responsive img-rouded">
+				</div>
+				{% endfor %}
+			</div>
 		</div>
-
 		{% include "tycoon/footer.html" %}
 
-		<script src="{% static 'tycoon/combination.js' %}"></script>
 	</body>
 </html>

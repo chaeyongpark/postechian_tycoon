@@ -12,12 +12,19 @@
 				<form action="codeToItem" method="POST">
 					<div class="form-group col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
 					{% csrf_token %}
-						<input type="codeToItem" class="form-control" id="codeToItem" placeholder="input your code">
-						<button type="submit" class="btn btn-default">Submit</button>
+						<input type="text" class="form-control" id="codeToItem" name="codeToItem" placeholder="input your code">
+						<button type="submit" class="btn btn-default" >Submit</button>
 					</div>
 				</form>
 			</div>
 		</div>
+		
+		<!--
+		<script type="text/javascript">
+  			function alertBox() {
+				alert('HI');
+			}
+		</script> -->
 
 		{% include "tycoon/footer.html" %}
 	</body>

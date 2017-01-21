@@ -7,23 +7,26 @@
 		{% include "tycoon/nav.html" %}
 		{% csrf_token %}
 
-		<div class="container combination">
+		<div class="container-fluid combination">
 			<div class="row">
 				<br>
 				<br>
 				<br>
 				<br>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
 					<div class="row" id="item_basket">
 						<h1 class="text-center">소유중인 아이템</h1>
-						{% for i in clist %}
+						{% for i in own_list %}
 						<div class="col-xs-3 item">
-						<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded">
+						{% if i == true %}
+							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded">
+						{% else %}
+							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="gray img-responsive img-rounded">	
 						</div>
 						{% endfor %}
 					</div>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
 					<canvas id="myChart" width="400" height="400"></canvas>
 				</div>
 			</div>
@@ -35,23 +38,25 @@
 		var dat = {
 			labels: ["체력", "지력", "매력", "잉여력", "운"],
 			datasets: [{
-				label: null,
-				backgroundColor: "rgba(179,181,198,0.2)",
-			   	borderColor: "rgba(179,181,198,1)",
-			   	pointBackgroundColor: "rgba(179,181,198,1)",
+				label: "능력치",
+				backgroundColor: "rgba(209, 48, 118, 0.2)",
+			   	borderColor: "rgba(209, 48, 118, 0.8)",
+			   	pointBackgroundColor: "rgba(209, 48, 118, 0.8)",
 			   	pointBorderColor: "#fff",
 			   	pointHoverBackgroundColor: "#fff",
-			   	pointHoverBorderColor: "rgba(179,181,198,1)",
+			   	pointHoverBorderColor: "rgba(209, 48, 118, 0.8)",
 			   	data: [{{avatar.strength}},{{avatar.intelligence}},{{avatar.charm}},{{avatar.surplus}},{{avatar.luck}}]}]
 			};
 		var myRadarChart = new Chart(ctx, { 
 			type: 'radar', 
 			data: dat, 
-			option: {
+			options: {
 				scale: {
-					reverse: true,
-					ticks: { beginAtZero: true },
-				},
+					ticks: { 
+						beginAtZero: true, 
+						max: 30
+					}
+				}
 			}
 		});
 		</script>

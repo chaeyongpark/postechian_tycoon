@@ -17,13 +17,13 @@ class Title(models.Model):
 @python_2_unicode_compatible
 class Item(models.Model):
 	name = models.CharField(max_length=20)
-	icon = models.ImageField(upload_to='images/icon/') 
+	icon = models.ImageField(upload_to='images/icon/', default='static/tycoon/blank.png') 
+	icon_b = models.ImageField(upload_to='images/icon/', default='static/tycoon/blank.png')
 	strength = models.IntegerField(default=0)
 	intelligence = models.IntegerField(default=0)
 	charm = models.IntegerField(default=0)
 	surplus = models.IntegerField(default=0)
 	luck = models.IntegerField(default=0)
-	explanation = models.CharField(max_length=20)
 
 	def __str__(self):
 		return self.name
@@ -35,7 +35,7 @@ class CodeToItem(models.Model):
 	explanation = models.CharField(max_length=30, default='Explanation')
 
 	def __str__(self):
-		return self.item.name
+		return self.code + " == " + self.item.name
 
 @python_2_unicode_compatible
 class Combination(models.Model):
@@ -59,6 +59,7 @@ class Avatar(models.Model):
 	luck = models.IntegerField(default=0)
 	cur_title = models.ForeignKey(Title, related_name='cur_title', null=True, blank=True)
 	title_list = models.ManyToManyField(Title, related_name='title_list', blank=True)
+	item_list = models.ManyToManyField(Item, blank=True, db_index=True)
 
 	def __str__(self):
 		return self.name
