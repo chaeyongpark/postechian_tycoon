@@ -43,9 +43,8 @@
 			data: dat, 
 			option: {
 				scale: {
-					ticks: {
-						beginAtZero: true
-					}
+					reverse: true,
+					ticks: { beginAtZero: true }				
 				}
 			}
 		});

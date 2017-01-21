@@ -7,10 +7,18 @@
 		{% include "tycoon/nav.html" %}
 
 		<div class="codeToitem">
-			<p>code to item</p>			
+			<div class="container">
+				<h2 class="text-center">code to Item</h2>	
+				<form action="codeToItem" method="POST">
+					<div class="form-group col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
+					{% csrf_token %}
+						<input type="codeToItem" class="form-control" id="codeToItem" placeholder="input your code">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</form>
+			</div>
 		</div>
 
 		{% include "tycoon/footer.html" %}
-
 	</body>
 </html>
