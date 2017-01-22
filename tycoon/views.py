@@ -47,11 +47,17 @@ def codeToItem(request):
 			message = 'Wrong Code'
 		else:
 			try:
-				print res_code 
 				code_to_item = CodeToItem.objects.get(code=res_code)
-				c = Contain(name=Avatar.objects.get(pk=1), item=code_to_item.item)
-				c.save()
-				message = code_to_item.item.name
+				if code_to_item.is_used == True:
+					message = 'Already uesed!'
+				else:
+					my_avatar = Avatar.objects.get(pk=1)
+					c = Contain(name=my_avatar, item=code_to_item.item)
+					c.save()
+					message = code_to_item.item.name
+					code_to_item.is_used = True
+					code_to_item.save()
+					my_avatar.item_list.add(code_to_item.item)
 				print message
 			except:
 				message = 'Wrong Code'
@@ -67,7 +73,8 @@ def itemBook(request):
 	own_list = Avatar.objects.get(pk=1).item_list.all()
 	own_name_list = [own_list[i].name for i in range(len(own_list))]
 	c = [item_name_list[i] in own_name_list for i in range(len(item_list))]
-	return render(request, 'tycoon/itemBook.html', { 'own_list': c, 'item_list': item_list})
+	item_list = zip(item_list, c)
+	return render(request, 'tycoon/itemBook.html', { 'item_list': item_list})
 
 def use(request):
 	avatar = Avatar.objects.get(pk=1)

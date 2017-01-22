@@ -18,7 +18,6 @@ class Title(models.Model):
 class Item(models.Model):
 	name = models.CharField(max_length=20)
 	icon = models.ImageField(upload_to='images/icon/', default='static/tycoon/blank.png') 
-	icon_b = models.ImageField(upload_to='images/icon/', default='static/tycoon/blank.png')
 	strength = models.IntegerField(default=0)
 	intelligence = models.IntegerField(default=0)
 	charm = models.IntegerField(default=0)
@@ -32,6 +31,7 @@ class Item(models.Model):
 class CodeToItem(models.Model):
 	code = models.CharField(max_length=20)
 	item = models.ForeignKey(Item)
+	is_used = models.BooleanField(default=False)
 	explanation = models.CharField(max_length=30, default='Explanation')
 
 	def __str__(self):

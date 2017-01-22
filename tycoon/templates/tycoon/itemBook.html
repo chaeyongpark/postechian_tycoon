@@ -6,14 +6,15 @@
 	<body>
 		{% include "tycoon/nav.html" %}
 
-		<div class="container">
-			<div class"row" id="item_book">
-				{% for i in own_list %}
+		<div class="container combination">
+			<div class="row" id="item_basket">
+				{% for item in item_list %}
 				<div class="item col-xs-2">
-					{% if i == true %}
-						<img src="{{ item_list[i].icon.url }}" alt="{{ item_list[i].name }}" class="img-responsive img-rouded">
+					{% if item.1 %}
+						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="img-responsive img-rouded">
 					{% else %}	
-						<img src="{{ item_list[i].icon.url }}" alt="{{ item_list[i].name }}" class="gray img-responsive img-rouded">
+						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="gray img-responsive img-rouded">
+					{% endif %}
 				</div>
 				{% endfor %}
 			</div>
