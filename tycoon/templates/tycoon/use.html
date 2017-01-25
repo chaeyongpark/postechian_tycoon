@@ -34,15 +34,18 @@
 		var ctx = document.getElementById("myChart");
 		var dat = {
 			labels: ["체력", "지력", "매력", "잉여력", "운"],
-			datasets: [{
-				label: "능력치",
-				backgroundColor: "rgba(209, 48, 118, 0.2)",
-			   	borderColor: "rgba(209, 48, 118, 0.8)",
-			   	pointBackgroundColor: "rgba(209, 48, 118, 0.8)",
-			   	pointBorderColor: "#fff",
-			   	pointHoverBackgroundColor: "#fff",
-			   	pointHoverBorderColor: "rgba(209, 48, 118, 0.8)",
-			   	data: [{{avatar.strength}},{{avatar.intelligence}},{{avatar.charm}},{{avatar.surplus}},{{avatar.luck}}]}]
+			datasets: [
+				{
+					label: "능력치",
+					backgroundColor: "rgba(209, 48, 118, 0.2)",
+				   	borderColor: "rgba(209, 48, 118, 0.8)",
+				   	pointBackgroundColor: "rgba(209, 48, 118, 0.8)",
+				   	pointBorderColor: "#fff",
+				   	pointHoverBackgroundColor: "#fff",
+				   	pointHoverBorderColor: "rgba(209, 48, 118, 0.8)",
+				   	data: [{{avatar.strength}},{{avatar.intelligence}},{{avatar.charm}},{{avatar.surplus}},{{avatar.luck}}]
+				}		
+				]
 			};
 		var myRadarChart = new Chart(ctx, { 
 			type: 'radar', 

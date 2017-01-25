@@ -71,3 +71,11 @@ class Contain(models.Model):
 
 	def __str__(self):
 		return self.name.name + " " + self.item.name
+
+@python_2_unicode_compatible
+class CombinationContain(models.Model):
+	name = models.ForeignKey (Avatar, db_index=True)
+	combination = models.ForeignKey(Combination)
+
+	def __str__(self):
+		return self.name.name + " has " + self.combination.new_item.name

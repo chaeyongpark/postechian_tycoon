@@ -68,6 +68,12 @@ footer p{
 
 img {
 	image-rendering: pixelated;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 img.non-pixel {
@@ -77,6 +83,6 @@ img.non-pixel {
 img.gray {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
-	opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
+	opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
 }

@@ -11,7 +11,7 @@
 				{% for item in item_list %}
 				<div class="item col-xs-2">
 					{% if item.1 %}
-						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="img-responsive img-rouded">
+						<img id="canvasSource" src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="img-responsive img-rouded">
 					{% else %}	
 						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="gray img-responsive img-rouded">
 					{% endif %}
