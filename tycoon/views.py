@@ -45,15 +45,18 @@ def codeToItem(request):
 		res_code = request.POST.get('codeToItem', False)
 		if res_code == False:
 			message = 'Wrong Code'
+			item_img_url = '/static/tycoon/wrong.png'
 		else:
 			try:
 				code_to_item = CodeToItem.objects.get(code=res_code)
 				if code_to_item.is_used == True:
-					message = 'Already uesed!'
+					message = 'Already used!'
+					item_img_url = '/static/tycoon/used.png'
 				else:
 					my_avatar = Avatar.objects.get(pk=1)
 					c = Contain(name=my_avatar, item=code_to_item.item)
 					c.save()
+					item_img_url = code_to_item.item.icon.url
 					message = code_to_item.item.name
 					code_to_item.is_used = True
 					code_to_item.save()
@@ -61,11 +64,12 @@ def codeToItem(request):
 				print message
 			except:
 				message = 'Wrong Code'
+				item_img_url = '/static/tycoon/wrong.png'
 				print message
-	 	return render(request, 'tycoon/codeToItem.html', { 'message': message })	
+	 	return JsonResponse({'item_img': item_img_url })
 
 def mission(request):
-	return render(request, 'tycoon/mission.html')
+	return render(request, '/static/tycoon/mission.html')
 
 def itemBook(request):
 	item_list = Item.objects.all()
