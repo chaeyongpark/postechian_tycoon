@@ -11,5 +11,5 @@ urlpatterns = [
 	url(r'^combination', views.combination, name='combination'),
 	url(r'^itemBook', views.itemBook, name='itemBook'),
 	url(r'^mission', views.mission, name='mission'),
-	url(r'^$', views.home, name='home'),
+	url(r'^', views.home, name='home'),
 ]

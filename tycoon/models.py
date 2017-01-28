@@ -1,11 +1,7 @@
 from __future__ import unicode_literals
 from django.utils.encoding import python_2_unicode_compatible
+from django.contrib.auth.models import User
 from django.db import models
-
-class User(models.Model):
-	#user_id = models.CharField(max_length=20)
-	user_password = models.CharField(max_length=20)
-	is_pw_changed = models.BooleanField(default=False)
 
 @python_2_unicode_compatible
 class Title(models.Model):
@@ -49,6 +45,7 @@ class Combination(models.Model):
 
 @python_2_unicode_compatible
 class Avatar(models.Model):
+	host = models.ForeignKey(User, default=1)
 	name = models.CharField(max_length=20, default='chaeyong')
 	image_f = models.ImageField(upload_to='images/avatar/', default='images/avatar/default.png')
 	image_b = models.ImageField(upload_to='images/avatar/', default='images/avatar/default.png')

@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	{% include "tycoon/header.html" %}
+	<body>
+		{% include "tycoon/nav.html" %}
+
+		<div class='login'>
+			<div class='container'>
+				<div class='form-group col-xs-4 col-xs-offset-4'>
+					{% if form.errors %}
+						<p>Incorrect ID or Password</p>
+					{% endif %}
+
+					<form method="post" action="{% url 'login' %}">
+						{% csrf_token %}
+
+						<p>Username</p>
+						<p>{{ form.username }}</p>
+						<p>Password</p>
+						<p>{{ form.password }}</p>
+
+						<input type="hidden" name="next" value="{{ next }}" />
+						<input type="submit" value="login" />
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		{% include "tycoon/footer.html" %}
+	</body>
+</html>

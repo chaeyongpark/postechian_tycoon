@@ -49,7 +49,7 @@ var itemEventHandler = function(e) {
 		var right_contains = $("#item-right").children().first().attr("contains");
 		$.ajax({
 			method: "POST",
-			url: "/combination",
+			url: "/combination/",
 			data: { left: left_contains, right: right_contains },
 		}).done(function(data) {
 			if (data.nitem.id == 0) {
@@ -67,12 +67,12 @@ $("#item-left").bind("click", function(e) {
 	if (left == true) {
 		var temp = $("<div class='col-xs-3 item'>").append($(this).children().first());
 		$(this).children().first().remove();
-		$(this).append("<img src='static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$(this).append("<img src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 		temp.children().first().bind("click", itemEventHandler)
 		$("#item_basket").prepend(temp);
 		left = false;
 
-		$('img#item-combined').replaceWith("<img id='item-combined' src='static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('img#item-combined').replaceWith("<img id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 	}
 });
 
@@ -80,11 +80,11 @@ $("#item-right").bind("click", function(e) {
 	if (right == true) {
 		var temp = $("<div class='col-xs-3 item'>").append($(this).children().first());
 		$(this).children().first().remove();
-		$(this).append("<img src='static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$(this).append("<img src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 		temp.children().first().bind("click", itemEventHandler)
 		$("#item_basket").prepend(temp);
 		right = false;
 
-		$('img#item-combined').replaceWith("<img id='item-combined' src='static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('img#item-combined').replaceWith("<img id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 	}
 });
