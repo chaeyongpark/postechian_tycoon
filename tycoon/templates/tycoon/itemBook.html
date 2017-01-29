@@ -14,28 +14,6 @@
 						<img id="canvasSource" src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" 
 						class="img-responsive img-rouded" data-toggle="modal" data-target="#myModal">
 
-						<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" 
-						role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-sm">
-								<div class="modal-content">
-									{% for c in comb_list %}
-										{% if item.0.name == c.combination.new_item.name %}
-											<div class="col-xs-4"> 
-												<img src="{{ c.combination.item1.icon.url }}" alt="{{ c.combination.item1.name }}" 
-												class="img-responsive img-rouded">
-											</div>
-											<div class="col-xs-4">
-												<img src="{% static 'tycoon/plus.png' %}" alt="더하기">
-											</div>
-											<div class="col-xs-4">
-												<img src="{{ c.combination.item2.icon.url }}" alt="{{ c.combination.item2.name }}" 
-												class="img-responsive img-rouded">
-											</div>
-										{% endif %}
-									{% endfor %}
-								</div>
-							</div>
-						</div>
 					{% else %}	
 						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="gray img-responsive img-rouded">
 					{% endif %}
@@ -45,14 +23,13 @@
 		</div>
 		{% include "tycoon/footer.html" %}
 	
-		<!-- MODAL -->
+		<!-- MODAL--> 
 		<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" 
 		role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-sm">
 			   	<div class="modal-content">
 					{% for c in comb_list %}
-			    		{% if item.0.name == c.combination %}
-							<!--
+			    		{% if item.0.name == c.combination.new_item.name %}
 							<div class="col-xs-4"> 
 								<img src="{{ c.combination.item1.icon.url }}" alt="{{ c.combination.item1.name }}" 
 								class="img-responsive img-rouded">
@@ -64,22 +41,10 @@
 								<img src="{{ c.combination.item2.icon.url }}" alt="{{ c.combination.item2.name }}" 
 								class="img-responsive img-rouded">
 							</div>
-							-->
-							{{ item.0.name }}
-							<br>
-							{{ c.combination }}
-							<br><br>
-						{% else %}
-							name<br>
-							{{ item.0 }}
-							<br>
-							{{ c.combination.new_item.name }}
-							<br>
 						{% endif %}
 					{% endfor %}
 				</div>
 			</div>
 		</div>
-
 	</body>
 </html>
