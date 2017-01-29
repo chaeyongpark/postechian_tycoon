@@ -1,0 +1,15 @@
+[
+	{
+		"model": "tycoon.item",
+		"pk": 4,
+		"fields": {
+			"name": "학식",
+			"icon": "images/icon/1_meal.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1
+		}
+	}
+]

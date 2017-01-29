@@ -27,6 +27,7 @@ def combination(request):
 		try:
 			nitem = Combination.objects.get(item1__name=litem.item.name, item2__name=ritem.item.name)
 			combined = {'id': Item.objects.get(name=nitem.new_item.name).id, 'url': nitem.new_item.icon.url}
+			print combined
 		except :
 			try:
 				nitem2 = Combination.objects.get(item2__name=litem.item.name, item1__name=ritem.item.name)
@@ -62,11 +63,17 @@ def codeToItem(request):
 					avatar = Avatar.objects.get(host=request.user.id)
 					c = Contain(name=avatar, item=code_to_item.item)
 					c.save()
+<<<<<<< HEAD
+
+=======
 					item_img_url = code_to_item.item.icon.url
+>>>>>>> 0b7c9dcc0e7fe1de1b0fa13d55ad4cca0979f605
 					message = code_to_item.item.name
 					code_to_item.is_used = True
 					code_to_item.save()
+
 					avatar.item_list.add(code_to_item.item)
+				print message
 			except:
 				message = 'Wrong Code'
 				item_img_url = '/static/tycoon/wrong.png'
@@ -75,7 +82,7 @@ def codeToItem(request):
 
 @login_required(login_url='/login/')
 def mission(request):
-	return render(request, 'tycoon/mission.html')
+	return render(request, '/static/tycoon/mission.html')
 
 @login_required(login_url='/login/')
 def itemBook(request):

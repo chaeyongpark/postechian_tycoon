@@ -1,0 +1,13 @@
+[
+	{
+		"model": "tycoon.combination",
+		"pk": 2,
+		"fields": {
+			"item1": 4,
+			"item2": 4,
+			"new_item": 4,
+			"explanation": "test"
+		}	
+
+	}
+]
