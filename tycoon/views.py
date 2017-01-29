@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from .models import Item, Avatar, Contain, Combination, CodeToItem
+from .models import Item, Avatar, Contain, Combination, CodeToItem, CombinationContain
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
@@ -80,12 +80,16 @@ def mission(request):
 @login_required(login_url='/login/')
 def itemBook(request):
 	item_list = Item.objects.all()
+	avatar = Avatar.objects.get(host=request.user.id)
 	item_name_list = [item_list[i].name for i in range(len(item_list))]
-	own_list = Avatar.objects.get(host=request.user.id).item_list.all()
+	own_list = avatar.item_list.all()
 	own_name_list = [own_list[i].name for i in range(len(own_list))]
 	c = [item_name_list[i] in own_name_list for i in range(len(item_list))]
 	item_list = zip(item_list, c)
-	return render(request, 'tycoon/itemBook.html', { 'item_list': item_list})
+
+	#Combination Contain list
+	comb_list = CombinationContain.objects.filter(name__name__startswith=avatar.name).order_by('combination')
+	return render(request, 'tycoon/itemBook.html', { 'item_list': item_list, 'comb_list': comb_list })
 
 @login_required(login_url='/login/')
 def use(request):
