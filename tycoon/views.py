@@ -38,8 +38,10 @@ def combination(request):
 			return JsonResponse({'nitem': combined})
 
 @login_required(login_url='/login/')
-def avatar(request):
-	avatar = Avatar.objects.get(host=request.user.id)
+def avatar(request, id=None):
+	if id == None :
+		id = request.user.id
+	avatar = Avatar.objects.get(host=id)
 	return render(request, 'tycoon/avatar.html', {'avatar': avatar})
 
 @login_required(login_url='/login/')

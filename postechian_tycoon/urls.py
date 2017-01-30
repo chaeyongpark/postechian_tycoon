@@ -22,18 +22,10 @@ from tycoon import views
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
-	url(r'^$', views.avatar, name='home'),
-    url(r'^admin/', admin.site.urls),	
-	url(r'^', include('django.contrib.auth.urls'), name='login'),
-	#url(r'^login/$', auth_views.login, name='login'),
-	#url(r'^logout/$', auth_views.logout, name='logout'),
-
-	url(r'^avatar/', views.avatar, name='avatar'),
-	url(r'^codeToItem/', views.codeToItem, name='codeToItem'),
-	url(r'^use/', views.use, name='use'),
-	url(r'^combination/', views.combination, name='combination'),
-	url(r'^itemBook/', views.itemBook, name='itemBook'),
-	url(r'^mission/', views.mission, name='mission'),
+	url(r'^$', views.avatar),
+	url(r'^tycoon/', include('tycoon.urls')),
+    url(r'^admin/', admin.site.urls),
+	url(r'', include('django.contrib.auth.urls'), name='login'),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
