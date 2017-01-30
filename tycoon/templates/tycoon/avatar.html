@@ -10,7 +10,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<h2 class="text-center">{{ avatar.name }}</h2></br>
-					<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-2">
+					<div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-2" id="ava">
 						<img src="{{ avatar.image_f.url }}" class="img-responsive">
 					</div>
 					<br><br>
@@ -20,7 +20,8 @@
 				</div>
 			</div>
 		</div>
-
+		
+		<!-- CHART -->
 		<script src="{% static 'tycoon/Chart.js' %}"></script>
 		<script>
 		var ctx = document.getElementById("myChart");
@@ -49,35 +50,23 @@
 			}
 		});
 		</script>
-<!--
-		<script src="{% static 'tycoon/Chart.js' %}"></script>
+
+		<!-- AVATAR IMAGE -->
 		<script>
-		var ctx = document.getElementById("myChart");
-		var dat = {
-			labels: ["체력", "지력", "매력", "잉여력", "운"],
-			datasets: [{
-				backgroundColor: [
-					"#FF6384",
-					"#4BC0C0",
-					"#FFCE56",
-					"#E7E9ED",
-					"#36A2EB"
-					],
-			   	data: [{{avatar.strength}},{{avatar.intelligence}},{{avatar.charm}},{{avatar.surplus}},{{avatar.luck}}]}]
-			};
-		var myRadarChart = new Chart(ctx, { 
-			type: 'polarArea', 
-			data: dat, 
-			option: {
-				scale: {
-					ticks: {
-						beginAtZero: true
-					}
+			var front = true;
+			$("#ava").bind("click", function(e) {
+				if(front == true) {
+					front = false;
+					$("div#ava").children().first().replaceWith("<img src='{{ avatar.image_b.url }}' class='img-responsive' id='ava'>");
+					console.log("FRONT");
 				}
-			}
-		});
+				else {
+					front = true;
+					$("div#ava").children().first().replaceWith("<img src='{{ avatar.image_f.url }}' class='img-responsive' id='ava'>");
+					console.log("BACK");
+				}
+				});
 		</script>
--->
 		{% include "tycoon/footer.html" %}
 	</body>
 </html>

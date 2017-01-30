@@ -73,7 +73,6 @@ def codeToItem(request):
 				print message
 	 	return JsonResponse({'item_img': item_img_url })
 
-@login_required(login_url='/login/')
 def mission(request):
 	return render(request, 'tycoon/mission.html')
 
