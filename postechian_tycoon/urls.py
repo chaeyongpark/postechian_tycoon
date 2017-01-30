@@ -22,8 +22,8 @@ from tycoon import views
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
-	url(r'^$', views.avatar),
-	url(r'^tycoon/', include('tycoon.urls')),
+	url(r'^$', views.avatar, name='home'),
+	url(r'', include('tycoon.urls')),
     url(r'^admin/', admin.site.urls),
 	url(r'', include('django.contrib.auth.urls'), name='login'),
 ]
