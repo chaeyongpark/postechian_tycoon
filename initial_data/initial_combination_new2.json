@@ -1,0 +1,1082 @@
+[
+	{
+		"model": "tycoon.combination",
+		"pk": 175,
+		"fields": {
+			"item1": 38,
+			"item2": 28,
+			"new_item": 34,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "연애에만 시간을 너무 쏟으면 다른 것과 이별할 수도 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 176,
+		"fields": {
+			"item1": 15,
+			"item2": 36,
+			"new_item": 34,
+			"strength_b": 0,
+			"intelligence_b": 1,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "벌써 공부를 소멸시켜 버리고 싶으면 어떡해.."
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 177,
+		"fields": {
+			"item1": 34,
+			"item2": 34,
+			"new_item": 35,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "괜찮아요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 178,
+		"fields": {
+			"item1": 34,
+			"item2": 41,
+			"new_item": 35,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "매일매일을 축제같이 살다 보면 이렇게 될 수도..?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 179,
+		"fields": {
+			"item1": 34,
+			"item2": 30,
+			"new_item": 35,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "잘못 된 길에 발을 들였나봐..장짤에 중독되다니.."
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 180,
+		"fields": {
+			"item1": 34,
+			"item2": 6,
+			"new_item": 36,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "플러스 마이너스 제로"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 181,
+		"fields": {
+			"item1": 45,
+			"item2": 5,
+			"new_item": 36,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "열심히 운동을 했으니 뺀 살을 치킨으로 보충 해 볼까?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 182,
+		"fields": {
+			"item1": 42,
+			"item2": 44,
+			"new_item": 36,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "알바해서 번 돈을 모두 여행에 쏟아부었지만 후회는 없다ㅎㅎ"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 183,
+		"fields": {
+			"item1": 38,
+			"item2": 14,
+			"new_item": 36,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "연애 할 때 쓴 돈은 아깝지 않아ㅎㅎ"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 184,
+		"fields": {
+			"item1": 8,
+			"item2": 15,
+			"new_item": 36,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "공부 하고 나서 게임을 하면 자기 전에 떠오르는게 오늘 공부한 내용일까 오늘 게임한 내용일까"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 185,
+		"fields": {
+			"item1": 36,
+			"item2": 36,
+			"new_item": 36,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "소멸과 소멸을 더해서 소멸을 소멸시켰더니 소멸이 소멸되서 소멸만 남았네?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 186,
+		"fields": {
+			"item1": 48,
+			"item2": 38,
+			"new_item": 37,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "벚꽃 핀 봄날에 형산강으로 데이트!"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 187,
+		"fields": {
+			"item1": 16,
+			"item2": 17,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 동아리 친구랑...?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 188,
+		"fields": {
+			"item1": 18,
+			"item2": 17,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 친구랑 엠티가서....?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 189,
+		"fields": {
+			"item1": 2,
+			"item2": 17,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 친구랑 청암에서 같이 공부하다가...?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 190,
+		"fields": {
+			"item1": 37,
+			"item2": 17,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 친구랑 함께 벚꽃 보러 가서...?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 191,
+		"fields": {
+			"item1": 37,
+			"item2": 28,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 벚꽃 피는 봄날,공강시간에...?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 192,
+		"fields": {
+			"item1": 37,
+			"item2": 18,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 벚꽃 피는 봄날에 엠티가서...?"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 193,
+		"fields": {
+			"item1": 15,
+			"item2": 16,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "같이 공부도 하고~동아리 활동도 하고~"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 194,
+		"fields": {
+			"item1": 19,
+			"item2": 17,
+			"new_item": 38,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "한 가지 가능성 : 친구랑 밤을 새서...??"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 195,
+		"fields": {
+			"item1": 38,
+			"item2": 8,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "게임에만 몰두했다간 이렇게 될 수도 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 196,
+		"fields": {
+			"item1": 38,
+			"item2": 9,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "지나친 음주는 이런 결과를 초래할 수 있습니다"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 197,
+		"fields": {
+			"item1": 38,
+			"item2": 29,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 1,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "시험 때문에 너무 바쁘면 이렇게 될 수도 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 198,
+		"fields": {
+			"item1": 38,
+			"item2": 17,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "친구랑 너무 많은 시간을 보내다간 이렇게 될 가능성도 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 199,
+		"fields": {
+			"item1": 38,
+			"item2": 40,
+			"new_item": 39,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "2년은 긴 시간이니까요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 200,
+		"fields": {
+			"item1": 38,
+			"item2": 36,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "이별 : [명사] 서로 갈리어 떨어짐"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 201,
+		"fields": {
+			"item1": 38,
+			"item2": 38,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "양다리 걸치고 그러지 마라"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 202,
+		"fields": {
+			"item1": 48,
+			"item2": 37,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "형산강에서 벚꽃잎이 떨어지는 것을 보며 우리는 이별했다"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 203,
+		"fields": {
+			"item1": 38,
+			"item2": 30,
+			"new_item": 39,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "연애, 또 연애, 그리고 연애..이별, 또 이별, 그리고 이별"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 204,
+		"fields": {
+			"item1": 35,
+			"item2": 34,
+			"new_item": 40,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "잠시 머리를 식히러 떠났다 오는 것도 나쁘지 않을 수 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 205,
+		"fields": {
+			"item1": 38,
+			"item2": 39,
+			"new_item": 40,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "잠시 떠났다가 돌아오는 것도 방법일 수 있어요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 206,
+		"fields": {
+			"item1": 35,
+			"item2": 35,
+			"new_item": 40,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "단순히 도피성이 아닌 마음을 다잡고 오는 시간이 되길 바래요"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 207,
+		"fields": {
+			"item1": 43,
+			"item2": 10,
+			"new_item": 40,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "집을 나와서 입대하러 갑니다"
+		}	
+	},
+	{
+		"model": "tycoon.combination",
+		"pk": 208,
+		"fields": {
+			"item1": 16,
+			"item2": 19,
+			"new_item": 41,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "축제 동아리 공연때문에 밤을 새웠다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 209,
+		"fields": {
+			"item1": 9,
+			"item2": 17,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "친구와 밤새 술로 달려버리고 말았다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 210,
+		"fields": {
+			"item1": 28,
+			"item2": 28,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "연속 공강!! 축제다!!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 211,
+		"fields": {
+			"item1": 45,
+			"item2": 28,
+			"new_item": 41,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "공강 시간에 먹는 치킨은 신의 가호와 같지."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 212,
+		"fields": {
+			"item1": 45,
+			"item2": 42,
+			"new_item": 41,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "??: 여행 가서 먹는 치킨! 정말 좋습니다!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 213,
+		"fields": {
+			"item1": 42,
+			"item2": 37,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "벚꽃 내음과 함께하는 치킨"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 214,
+		"fields": {
+			"item1": 37,
+			"item2": 8,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "벚꽃이 지고 나면 축제. 이스포츠 경기도 이뤄진다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 215,
+		"fields": {
+			"item1": 37,
+			"item2": 9,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "만발한 꽃 아래에서 술 한 잔."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 216,
+		"fields": {
+			"item1": 3,
+			"item2": 8,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "힘든 하루를 끝내고 방에서 게임 한 판을."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 217,
+		"fields": {
+			"item1": 8,
+			"item2": 16,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "축제에선 동아리 부스에서 미니게임을 한다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 218,
+		"fields": {
+			"item1": 4,
+			"item2": 8,
+			"new_item": 41,
+			"strength_b": 0,
+			"intelligence_b": 1,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "축제에선 78계단 앞에서 78퀴즈를 풀고 상품을 받습니다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 219,
+		"fields": {
+			"item1": 12,
+			"item2": 17,
+			"new_item": 42,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "여름방학엔 친구와 함께... 하나무라로 떠납니다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 220,
+		"fields": {
+			"item1": 12,
+			"item2": 14,
+			"new_item": 42,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "(외식을 하며) 돈 모아서 이번 방학엔 여행가야지!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 221,
+		"fields": {
+			"item1": 22,
+			"item2": 14,
+			"new_item": 42,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "돈이 있어도 주말엔 멀리는 못 가지."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 222,
+		"fields": {
+			"item1": 12,
+			"item2": 44,
+			"new_item": 42,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "외국으로 가려면 알바로 돈을 법시다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 223,
+		"fields": {
+			"item1": 41,
+			"item2": 37,
+			"new_item": 42,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "벚꽃축제를 보러 가려구? 으음..."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 224,
+		"fields": {
+			"item1": 22,
+			"item2": 28,
+			"new_item": 43,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "주말에 집 가서 잔소리는 듣지 맙시다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 225,
+		"fields": {
+			"item1": 14,
+			"item2": 30,
+			"new_item": 44,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "자본주의가 낳은 괴물이 된 당신!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 226,
+		"fields": {
+			"item1": 34,
+			"item2": 12,
+			"new_item": 44,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "장학금이 짤린 당신. 등록금은 어쩔 셈인가요?"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 227,
+		"fields": {
+			"item1": 9,
+			"item2": 43,
+			"new_item": 44,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "민증검사하느라 바쁘시죠?"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 228,
+		"fields": {
+			"item1": 14,
+			"item2": 19,
+			"new_item": 45,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "과제와 밤을 버티려면 필요한 것은?"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 229,
+		"fields": {
+			"item1": 17,
+			"item2": 41,
+			"new_item": 45,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "광란의 치맥 party!!!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 230,
+		"fields": {
+			"item1": 7,
+			"item2": 36,
+			"new_item": 45,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "한입만! 한입만!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 231,
+		"fields": {
+			"item1": 45,
+			"item2": 45,
+			"new_item": 46,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "혼자 치킨 두 마리!! 남겨놓고 또 먹자!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 232,
+		"fields": {
+			"item1": 45,
+			"item2": 17,
+			"new_item": 46,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "??: 치킨 ㄱ?"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 233,
+		"fields": {
+			"item1": 2,
+			"item2": 15,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 1,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "매일 청암에서 밤을 샌 결과는.."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 234,
+		"fields": {
+			"item1": 8,
+			"item2": 8,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "꿈 속에서 레이드중"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 235,
+		"fields": {
+			"item1": 9,
+			"item2": 31,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "술만 먹다 죽만 먹게 생겼다."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 236,
+		"fields": {
+			"item1": 20,
+			"item2": 20,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "죽...죽었어?!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 237,
+		"fields": {
+			"item1": 21,
+			"item2": 21,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "죽...죽었어?!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 238,
+		"fields": {
+			"item1": 4,
+			"item2": 5,
+			"new_item": 47,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "더는...걸을 수 없어..."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 239,
+		"fields": {
+			"item1": 4,
+			"item2": 9,
+			"new_item": 47,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "아저씨 여기서 주무시면 입돌아가요."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 240,
+		"fields": {
+			"item1": 9,
+			"item2": 45,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "풍류를 즐기시는군요?"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 241,
+		"fields": {
+			"item1": 35,
+			"item2": 40,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "하...인생..."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 242,
+		"fields": {
+			"item1": 5,
+			"item2": 29,
+			"new_item": 48,
+			"strength_b": 1,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "시험치려고 산 넘고 물 건너 체육관까지"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 243,
+		"fields": {
+			"item1": 37,
+			"item2": 38,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 0,
+			"explanation": "두근두근 데이트"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 244,
+		"fields": {
+			"item1": 39,
+			"item2": 41,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
+			"explanation": "마! 살면서 깨질 수도 있지!"
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 245,
+		"fields": {
+			"item1": 36,
+			"item2": 46,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "선생님..행복하게..살고..싶어요.."
+		}	
+	}, 
+	{
+		"model": "tycoon.combination",
+		"pk": 246,
+		"fields": {
+			"item1": 36,
+			"item2": 43,
+			"new_item": 48,
+			"strength_b": 0,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 0,
+			"luck_b": 1,
+			"explanation": "집이...사라졌어?!"
+		}	
+	}
+]

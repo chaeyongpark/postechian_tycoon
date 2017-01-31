@@ -818,7 +818,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": ,
+			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방에만 있어도 되는 기간, 방학이죠"
@@ -2593,7 +2593,8 @@
 			"luck_b": 0,
 			"explanation": "연애 할 때 쓴 돈은 아깝지 않아ㅎㅎ"
 		}	
-	},{
+	},
+	{
 		"model": "tycoon.combination",
 		"pk": 184,
 		"fields": {
@@ -2847,7 +2848,8 @@
 			"luck_b": 0,
 			"explanation": "이별 : [명사] 서로 갈리어 떨어짐"
 		}	
-	},{
+	},
+	{
 		"model": "tycoon.combination",
 		"pk": 201,
 		"fields": {
@@ -2962,7 +2964,7 @@
 			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": ,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "축제 동아리 공연때문에 밤을 새웠다."
 		}	

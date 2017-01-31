@@ -25,7 +25,7 @@ class Item(models.Model):
 
 @python_2_unicode_compatible
 class CodeToItem(models.Model):
-	code = models.CharField(max_length=20)
+	code = models.CharField(max_length=40)
 	item = models.ForeignKey(Item)
 	is_used = models.BooleanField(default=False)
 	explanation = models.CharField(max_length=40, default='Explanation')
