@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from .models import Item, Avatar, Contain, Combination, CodeToItem, CombinationContain
+from .models import Item, Avatar, Contain, Combination, CodeToItem, CombinationContain, Mission
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
@@ -116,7 +116,11 @@ def codeToItem(request):
 	 	return JsonResponse({'item_img': item_img_url })
 
 def mission(request):
-	return render(request, 'tycoon/mission.html')
+	mission_list = Mission.objects.all()
+	avatar = Avatar.objects.get(host=request.user.id)
+	mission_clear_list = [mission_list[i] in avatar.mission_list.all() for i in range(len(mission_list))]
+	result = zip(mission_list, mission_clear_list)
+	return render(request, 'tycoon/mission.html', { 'result': result })
 
 @login_required(login_url='/login/')
 def itemBook(request):

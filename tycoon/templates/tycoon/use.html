@@ -8,12 +8,10 @@
 		{% csrf_token %}
 
 		<div class="container-fluid combination">
+			<h2 class="text-center">능력치 올리기</h2>	
 			<div class="row">
 				<br>
-				<br>
-				<br>
-				<br>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2">
 					<div class="row" id="item_basket">
 						<h1 class="text-center">소유중인 아이템</h1>
 						{% for i in clist %}
@@ -22,8 +20,9 @@
 						</div>
 						{% endfor %}
 					</div>
+					<br>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
 					<canvas id="myChart" width="400" height="400"></canvas>
 				</div>
 			</div>
