@@ -12,7 +12,7 @@
 				<div class="item col-xs-4 col-sm-3 col-lg-2">
 					{% if item.1 %}
 						<img id="canvasSource" src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" 
-						class="img-responsive img-rouded" data-toggle="modal" data-target="#myModal">
+						class="img-responsive img-rouded" data-toggle="modal" data-target="#{{ item.0 }}">
 
 					{% else %}	
 						<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="gray img-responsive img-rouded">
@@ -22,29 +22,72 @@
 			</div>
 		</div>
 		{% include "tycoon/footer.html" %}
-	
-		<!-- MODAL--> 
-		<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" 
-		role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-sm">
-			   	<div class="modal-content">
-					{% for c in comb_list %}
-			    		{% if item.0.name == c.combination.new_item.name %}
-							<div class="col-xs-4"> 
-								<img src="{{ c.combination.item1.icon.url }}" alt="{{ c.combination.item1.name }}" 
-								class="img-responsive img-rouded">
-							</div>
-							<div class="col-xs-4">
-								<img src="{% static 'tycoon/plus.png' %}" alt="더하기">
-							</div>
-							<div class="col-xs-4">
-								<img src="{{ c.combination.item2.icon.url }}" alt="{{ c.combination.item2.name }}" 
-								class="img-responsive img-rouded">
-							</div>
-						{% endif %}
-					{% endfor %}
-				</div>
+		
+		{% for item in item_list %}
+			{% if item.1 %}
+			<!-- MODAL--> 
+			<div class="modal fade" id="{{ item.0 }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">{{ item.0.name }}</h4>
+			      </div>
+			      <div class="modal-body">
+			      	<div class="row">
+				      	<div class="col-xs-6 col-xs-offset-3">
+				      		<img src="{{ item.0.icon.url }}" alt="{{ item.0.name }}" class="img-responsive">
+				      		<br>
+				      	</div>
+			      	</div>
+			      	<div class="row">
+
+			      	{% if item.0.strength != 0%}
+			      	<p class="text-center">체력: {% if item.0.strength > 0 %}+{% endif %}{{ item.0.strength }}</p>
+			      	{% endif %}
+
+			      	{% if item.0.intelligence != 0%}
+			      	<p class="text-center">지력: {% if item.0.intelligence > 0 %}+{% endif %}{{ item.0.intelligence }}</p>
+			      	{% endif %}
+
+			      	{% if item.0.charm != 0%}
+			      	<p class="text-center">매력: {% if item.0.charm > 0 %}+{% endif %}{{ item.0.charm }}</p>
+			      	{% endif %}
+
+			      	{% if item.0.surplus != 0%}
+			      	<p class="text-center">잉여력: {% if item.0.surplus > 0 %}+{% endif %}{{ item.0.surplus }}</p>
+			      	{% endif %}
+
+			      	{% if item.0.luck != 0%}
+			      	<p class="text-center">운: {% if item.0.luck > 0 %}+{% endif %}{{ item.0.luck }}</p>
+			      	{% endif %}
+			      	
+			        {% for comb in comb_list %}
+			        	{% if comb.combination.new_item == item.0 %}
+			        		<div class="row">
+				        		<div class="col-xs-2 col-xs-offset-3" id="item-left">
+									<img src="{{ comb.combination.item1.icon.url }}" class="img-responsive img-rounded">
+								</div>
+								<div class="col-xs-2">
+									<img src="{% static 'tycoon/plus.png' %}" alt="더하기" class="img-responsive plus">
+								</div>
+								<div class="col-xs-2" id="item-right">
+									<img src="{{ comb.combination.item2.icon.url }}" class="img-responsive img-rounded">
+								</div>
+			        		</div>
+			        		<br>
+			        		<p class="text-center">{{ comb.combination.item1 }} + {{ comb.combination.item2 }} : {{ comb.combination.explanation }}</p>
+			        	{% endif %}
+			        {% endfor %}
+			        </div>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+			      </div>
+			    </div>
+			  </div>
 			</div>
-		</div>
+			{% endif %}
+		{% endfor %}
 	</body>
 </html>

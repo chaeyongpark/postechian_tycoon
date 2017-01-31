@@ -3,40 +3,91 @@
 		"model": "tycoon.item",
 		"pk": 1,
 		"fields": {
-				"name": "연애",
-				"icon": "images/icon/39_couple.png",  
-				"strength": -2,
-				"intelligence": -1,
-				"surplus": -1,
-				"charm": 4,
-				"luck": 2
+			"name": "학식",
+			"icon": "images/icon/1_meal.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1
 		}
 	},
 	{
 		"model": "tycoon.item",
 		"pk": 2,
 		"fields": {
-				"name": "이별",
-				"icon": "images/icon/40_break.png",  
-				"strength": 1,
-				"intelligence": 0,
-				"surplus": 1,
-				"charm": 0,
-				"luck": 0
+			"name": "청암",
+			"icon": "images/icon/2_chungAm.png",
+			"strength": -1,
+			"intelligence": 3,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 0
 		}
 	},
 	{
 		"model": "tycoon.item",
 		"pk": 3,
 		"fields": {
-				"name": "장짤",
-				"icon": "images/icon/35_jangJjal.png",  
-				"strength": -1,
-				"intelligence": -1,
-				"surplus": 3,
-				"charm": 0,
-				"luck": 0
+			"name": "방",
+			"icon": "images/icon/3_room.png",
+			"strength": 1,
+			"intelligence": 0,
+			"surplus": 1,
+			"charm": -1,
+			"luck": 1
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 4,
+		"fields": {
+			"name": "78계단",
+			"icon": "images/icon/4_78.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 0
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 5,
+		"fields": {
+			"name": "체육관",
+			"icon": "images/icon/5_gym.png",
+			"strength": 2,
+			"intelligence": 0,
+			"surplus": -1,
+			"charm": 1,
+			"luck": 0
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 6,
+		"fields": {
+			"name": "연애",
+			"icon": "images/icon/38_couple.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 7,
+		"fields": {
+			"name": "이별",
+			"icon": "images/icon/39_break.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1
 		}
 	}
 ]
-

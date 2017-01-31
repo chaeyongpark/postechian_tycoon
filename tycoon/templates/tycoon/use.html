@@ -18,7 +18,7 @@
 						<h1 class="text-center">소유중인 아이템</h1>
 						{% for i in clist %}
 						<div class="item col-xs-3">
-							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded">
+							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded" name="{{ i.item.name }}" strength="{{ i.item.strength }}" intelligence="{{ i.item.intelligence }}" charm="{{ i.item.charm }}" surplus="{{ i.item.surplus }}" luck="{{ i.item.luck }}">
 						</div>
 						{% endfor %}
 					</div>
@@ -60,6 +60,8 @@
 			}
 		});
 		</script>
+
+		<script src="{% static 'tycoon/use.js' %}"></script>
 
 		{% include "tycoon/footer.html" %}
 	</body>

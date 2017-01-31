@@ -86,3 +86,7 @@ img.gray {
 	opacity: 0.1;
     filter: alpha(opacity=10); /* For IE8 and earlier */
 }
+
+input#id_password {
+	font-family: sans-serif;
+}

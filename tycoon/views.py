@@ -38,8 +38,10 @@ def combination(request):
 			return JsonResponse({'nitem': combined})
 
 @login_required(login_url='/login/')
-def avatar(request):
-	avatar = Avatar.objects.get(host=request.user.id)
+def avatar(request, id=None):
+	if id == None :
+		id = request.user.id
+	avatar = Avatar.objects.get(host=id)
 	return render(request, 'tycoon/avatar.html', {'avatar': avatar})
 
 @login_required(login_url='/login/')
@@ -93,5 +95,23 @@ def itemBook(request):
 @login_required(login_url='/login/')
 def use(request):
 	avatar = Avatar.objects.get(host=request.user.id)
+
+	if request.method == 'POST':
+		cid = request.POST.get('contains_id', False)
+
+		try:
+			contain = Contain.objects.get(id=cid)
+			contain.delete()
+
+			avatar.strength += contain.item.strength
+			avatar.intelligence += contain.item.intelligence
+			avatar.charm += contain.item.charm
+			avatar.surplus += contain.item.surplus
+			avatar.luck += contain.item.luck
+			avatar.save()
+
+		except:
+			pass
+	
 	own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
 	return render(request, 'tycoon/use.html', {'avatar': avatar, 'clist': own_list})
