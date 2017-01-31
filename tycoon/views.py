@@ -11,31 +11,71 @@ def home(request):
 
 @login_required(login_url='/login/')
 def combination(request):
+	avatar = Avatar.objects.get(host=request.user.id)
+	own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
+
 	if request.method == 'GET':
-		print request.method
-		avatar = Avatar.objects.get(host=request.user.id)
-		own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
 		return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': own_list})
 	
 	elif request.method == 'POST':
-		print request.method
-		litem_cid = request.POST.get('left')
-		litem = Contain.objects.get(id=litem_cid)
-		ritem_cid = request.POST.get('right')
-		ritem = Contain.objects.get(id=ritem_cid)
-		
-		try:
-			nitem = Combination.objects.get(item1__name=litem.item.name, item2__name=ritem.item.name)
-			combined = {'id': Item.objects.get(name=nitem.new_item.name).id, 'url': nitem.new_item.icon.url}
-		except :
-			try:
-				nitem2 = Combination.objects.get(item2__name=litem.item.name, item1__name=ritem.item.name)
-				combined = {'id': Item.objects.get(name=nitem2.new_item.name).id, 'url': nitem2.new_item.icon.url}
-			except:
-				combined = {'id': 0, 'url': 'null'}
 
-		finally:
-			return JsonResponse({'nitem': combined})
+		# Check 2 contains exist
+		try:
+			left_item_contain = Contain.objects.get(id=request.POST.get('left', False))
+			right_item_contain = Contain.objects.get(id=request.POST.get('right', False))
+		except:
+			print "Contains don't exist"
+			return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': own_list})
+
+		# Check 2 contains belong to user
+		if left_item_contain.name == avatar and right_item_contain.name == avatar:
+			pass
+		else:
+			print "Contains don't belong to user"
+			return render(request, 'tycoon/combination.html', {'avatar': avatar, 'clist': own_list})
+
+		# Get item from contains
+		left_item = left_item_contain.item
+		right_item = right_item_contain.item
+
+		# Check if combination exists
+		try:
+			comb = Combination.objects.get(item1__name=left_item.name, item2__name=right_item.name)
+		except:
+			try:
+				comb = Combination.objects.get(item2__name=left_item.name, item1__name=right_item.name)
+			except:
+				# Combination doesn't exist s.t. return nitem.id as 0
+				print "Combination doesn't exist"
+				return JsonResponse({'nitem': {'id': 0, 'url': 'null'}})
+		
+		# Check if this request for actual combination command
+		if request.POST.get('real', None) == "true":
+			print "User actually requested combination"
+			left_item_contain.delete()
+			right_item_contain.delete()
+			new_item = Item.objects.get(id=comb.new_item.id)
+			avatar.item_list.add(new_item)
+			new_contain = Contain(name=avatar, item=new_item)
+			new_contain.save()
+
+		# Check if this combination was used by user
+		try:
+			CombinationContain.objects.get(name=avatar, combination=comb)
+		except:
+			new_combination_contain = CombinationContain(name=avatar, combination=comb)
+			new_combination_contain.save()
+			before = False;
+		else:
+			before = True;
+
+		# Return the results
+		return JsonResponse({'nitem': {
+				'id': comb.new_item.id, 
+				'url': comb.new_item.icon.url, 
+				'name': comb.new_item.name }, 
+			'before': before})
+	
 
 @login_required(login_url='/login/')
 def avatar(request, id=None):

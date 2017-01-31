@@ -50,12 +50,30 @@ var itemEventHandler = function(e) {
 		$.ajax({
 			method: "POST",
 			url: "/combination/",
-			data: { left: left_contains, right: right_contains },
+			data: { real: false, left: left_contains, right: right_contains },
 		}).done(function(data) {
 			if (data.nitem.id == 0) {
 			}
+			else if(data.before) {
+				$('img#item-combined').replaceWith("<img combined='true' id='item-combined' src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
+			}
 			else {
-				$('img#item-combined').replaceWith("<img id='item-combined' src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
+				$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/question.png' class='img-responsive img-rounded'>");
+				$('img#item-combined').bind("click", function() {
+					$(this).animate({
+							opacity: 0
+						}, 1000, function() {
+							$(this).attr("src", data.nitem.url);
+							$(this).attr("combined", 'true');
+							$(this).animate({
+								opacity: 100
+							}, 1000, function() {
+								alert("축하합니다! 다음 조합법을 발견하였습니다!\n" +
+									$("#item-left").children().first().attr("alt") + " + " +
+									$("#item-right").children().first().attr("alt") + " = " + data.nitem.name);
+							});
+					});
+				});
 			}
 		});
 	}
@@ -72,7 +90,7 @@ $("#item-left").bind("click", function(e) {
 		$("#item_basket").prepend(temp);
 		left = false;
 
-		$('img#item-combined').replaceWith("<img id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 	}
 });
 
@@ -85,6 +103,22 @@ $("#item-right").bind("click", function(e) {
 		$("#item_basket").prepend(temp);
 		right = false;
 
-		$('img#item-combined').replaceWith("<img id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
+	}
+});
+
+$("button#combine").bind("click", function(e) {
+	var combined = $("img#item-combined").attr("combined");
+	var left_contains = $("#item-left").children().first().attr("contains");
+	var right_contains = $("#item-right").children().first().attr("contains");
+	
+	if(combined) {
+		$.ajax({
+			method: "POST",
+			url: "/combination/",
+			data: { real: true, left: left_contains, right: right_contains },
+		}).done(function(data) {
+			location.reload();
+		});
 	}
 });

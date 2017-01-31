@@ -45,7 +45,7 @@ var do_animation = function(index, item_img) {
 			$("img#code_to_item_box").attr("src", item_img);
 			$("img#code_to_item_box").animate({
 				opacity: 100
-			}, 5000, function() {
+			}, 1000, function() {
 				$("form#codeToItemForm :input").prop("disabled", false);
 			});
 		});
