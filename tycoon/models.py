@@ -50,10 +50,14 @@ class Combination(models.Model):
 
 @python_2_unicode_compatible
 class Mission(models.Model):
-	name = models.CharField(max_length=60, default='chaeyongHi')
+	name = models.CharField(max_length=60, default='Twinkle Twinkle Little Stars')
+	explanation = models.CharField(max_length=200, default='Make star shape with bunban members finger')
 
 	def __str__(self):
 		return self.name
+
+	def percentage(self):
+		return str(self.avatar_set.count() * 100 / float(Avatar.objects.count())) + "%"
 
 @python_2_unicode_compatible
 class Avatar(models.Model):

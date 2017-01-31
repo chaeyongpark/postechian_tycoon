@@ -7,8 +7,48 @@
 		{% include "tycoon/nav.html" %}
 
 		<div class="mission">
-			<p>mission</p>			
+			<div class="container">
+				<h2 class="text-center">분반별 미션</h2>
+				<br>
+
+				{% for mission in result %}
+
+				<div class="col-sm-6">
+					<div class="alert {% if mission.1 %}alert-success{% else %}alert-warning{% endif %}" data-toggle="modal" data-target="#mission{{mission.0.id}}">{{mission.0.name}}</div>
+				</div>
+
+				{% endfor %}
+			</div>
 		</div>
+
+		{% for mission in result %}
+
+		<div class="modal fade" id="mission{{mission.0.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">{{mission.0.name}}</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<h3 class="text-center">목표</h3>
+		      	<h4 class="text-center">{{mission.0.explanation}}</h4>
+		      	<br>
+		      	<h3 class="text-center">클리어 퍼센트</h3>
+		        <div class="progress">
+				  <div class="progress-bar" style="width: {{ mission.0.percentage }}; min-width: 3em;">
+				    {{ mission.0.percentage }}
+				  </div>
+				</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		{% endfor %}
 
 		{% include "tycoon/footer.html" %}
 
