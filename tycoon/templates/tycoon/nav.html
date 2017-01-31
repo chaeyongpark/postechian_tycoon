@@ -24,7 +24,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">다른 분반 <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						{% for user in all_users %}
-						<li><a href="/avatar/{{user.pk}}/"{>{{ user.pk|add:-1 }}분반</a></li>
+						<li><a href="/avatar/{{user.0}}/"{>{{ user.1 }}</a></li>
 						{% endfor %}
 					</ul>
 				</li>
