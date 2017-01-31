@@ -1,13 +1,17 @@
 [
 	{
 		"model": "tycoon.combination",
-		"pk": 2,
+		"pk": 1,
 		"fields": {
-			"item1": 4,
-			"item2": 4,
-			"new_item": 4,
-			"explanation": "test"
+			"item1": 2,
+			"item2": 3,
+			"new_item": 1,
+			"strength_b": 1,
+			"intelligence_b": 2,
+			"charm_b": 3,
+			"surplus_b": 4,
+			"luck_b": 5,
+			"explanation": "청암에서 밤을 세고 학식을 먹음!"
 		}	
-
 	}
 ]

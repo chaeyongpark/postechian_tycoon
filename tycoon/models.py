@@ -28,7 +28,7 @@ class CodeToItem(models.Model):
 	code = models.CharField(max_length=20)
 	item = models.ForeignKey(Item)
 	is_used = models.BooleanField(default=False)
-	explanation = models.CharField(max_length=30, default='Explanation')
+	explanation = models.CharField(max_length=40, default='Explanation')
 
 	def __str__(self):
 		return self.code + " == " + self.item.name
@@ -38,10 +38,22 @@ class Combination(models.Model):
 	item1 = models.ForeignKey(Item, related_name='item1')
 	item2 = models.ForeignKey(Item, related_name='item2')
 	new_item = models.ForeignKey(Item, related_name='new_item') 
-	explanation = models.CharField(max_length=40, default='Explanation')
+	strength_b = models.IntegerField(default=0)
+	intelligence_b = models.IntegerField(default=0)
+	charm_b = models.IntegerField(default=0)
+	surplus_b = models.IntegerField(default=0)
+	luck_b = models.IntegerField(default=0)
+	explanation = models.CharField(max_length=60, default='Explanation')
 
 	def __str__(self):
 		return self.new_item.name + " = " + self.item1.name + " + " + self.item2.name
+
+@python_2_unicode_compatible
+class Mission(models.Model):
+	name = models.CharField(max_length=60, default='chaeyongHi')
+
+	def __str__(self):
+		return self.name
 
 @python_2_unicode_compatible
 class Avatar(models.Model):
@@ -57,6 +69,7 @@ class Avatar(models.Model):
 	cur_title = models.ForeignKey(Title, related_name='cur_title', null=True, blank=True)
 	title_list = models.ManyToManyField(Title, related_name='title_list', blank=True)
 	item_list = models.ManyToManyField(Item, blank=True, db_index=True)
+	mission_list = models.ManyToManyField(Mission, blank=True, null=True)
 
 	def __str__(self):
 		return self.name
@@ -76,3 +89,5 @@ class CombinationContain(models.Model):
 
 	def __str__(self):
 		return self.name.name + " has " + self.combination.new_item.name
+
+

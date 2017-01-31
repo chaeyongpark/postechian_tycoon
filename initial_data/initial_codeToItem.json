@@ -1,0 +1,21 @@
+[
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 1,
+		"fields": {
+			"code": "박채용",
+			"item": 6,
+			"explanation": "우주대스타는 역시 연애!"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 2,
+		"fields": {
+			"code": "임범수",
+			"item": 1,
+			"explanation": "쿰척대장 임범수"
+		}	
+
+	}
+]
