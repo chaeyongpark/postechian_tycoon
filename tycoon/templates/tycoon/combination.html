@@ -35,7 +35,7 @@
 					<h1 class="text-center">소유중인 아이템</h1>
 					<div class="row" id="item_basket">
 						{% for i in clist %}
-						<div class="col-xs-3 item">
+						<div class="col-xs-6 col-sm-4 col-lg-3 item">
 							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded">
 						</div>
 						{% endfor %}

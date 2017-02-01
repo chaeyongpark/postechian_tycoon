@@ -13,9 +13,9 @@
 				<br>
 				<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2">
 					<div class="row" id="item_basket">
-						<h1 class="text-center">소유중인 아이템</h1>
+						<h3 class="text-center">소유중인 아이템</h1>
 						{% for i in clist %}
-						<div class="item col-xs-3">
+						<div class="item col-xs-6">
 							<img src="{{ i.item.icon.url }}" alt="{{ i.item.name }}" contains="{{ i.pk }}" class="img-responsive img-rounded" name="{{ i.item.name }}" strength="{{ i.item.strength }}" intelligence="{{ i.item.intelligence }}" charm="{{ i.item.charm }}" surplus="{{ i.item.surplus }}" luck="{{ i.item.luck }}">
 						</div>
 						{% endfor %}

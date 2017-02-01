@@ -83,7 +83,7 @@ $(".item img").bind("click", itemEventHandler);
 
 $("#item-left").bind("click", function(e) {
 	if (left == true) {
-		var temp = $("<div class='col-xs-3 item'>").append($(this).children().first());
+		var temp = $("<div class='col-xs-6 col-sm-4 col-lg-3 item'>").append($(this).children().first());
 		$(this).children().first().remove();
 		$(this).append("<img src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 		temp.children().first().bind("click", itemEventHandler)
@@ -96,7 +96,7 @@ $("#item-left").bind("click", function(e) {
 
 $("#item-right").bind("click", function(e) {
 	if (right == true) {
-		var temp = $("<div class='col-xs-3 item'>").append($(this).children().first());
+		var temp = $("<div class='col-xs-6 col-sm-4 col-lg-3 item'>").append($(this).children().first());
 		$(this).children().first().remove();
 		$(this).append("<img src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
 		temp.children().first().bind("click", itemEventHandler)
