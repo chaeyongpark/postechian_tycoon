@@ -47,7 +47,7 @@ def combination(request):
 			except:
 				# Combination doesn't exist s.t. return nitem.id as 0
 				print "Combination doesn't exist"
-				return JsonResponse({'nitem': {'id': 0, 'url': 'null'}})
+				return JsonResponse({'nitem': {'id': 0, 'url': 'null', 'explanataion': 'Combination does not exist' }})
 		
 		# Check if this request for actual combination command
 		if request.POST.get('real', None) == "true":
@@ -73,7 +73,8 @@ def combination(request):
 		return JsonResponse({'nitem': {
 				'id': comb.new_item.id, 
 				'url': comb.new_item.icon.url, 
-				'name': comb.new_item.name }, 
+				'name': comb.new_item.name,
+				'explanation': comb.explanation }, 
 			'before': before})
 	
 

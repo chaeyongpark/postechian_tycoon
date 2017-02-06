@@ -66,22 +66,21 @@
 			      	
 			        {% for comb in comb_list %}
 			        	{% if comb.combination.new_item == item.0 %}
-			        		<div class="row">
-			        			<div class="container">
-					        		<div class="col-xs-4 col-xs-offset-0" id="item-left">
-										<img src="{{ comb.combination.item1.icon.url }}" class="img-responsive img-rounded">
-									</div>
-									<div class="col-xs-4">
-										<img src="{% static 'tycoon/plus.png' %}" alt="더하기" class="img-responsive plus">
-									</div>
-									<div class="col-xs-4" id="item-right">
-										<img src="{{ comb.combination.item2.icon.url }}" class="img-responsive img-rounded">
-									</div>
-									<br>
-					        		<p class="text-center">{{ comb.combination.item1 }} + {{ comb.combination.item2 }}</p>
-					        		<p class="col-xs-10 col-xs-offset-1 text-center">{{ comb.combination.explanation }}</p>
-				        		</div>
-			        		</div>
+						<div class="row">
+							<div class="col-xs-3 col-xs-offset-1" id="item-left">
+								<img src="{{ comb.combination.item1.icon.url }}" class="img-responsive img-rounded">
+							</div>
+							<div class="col-xs-4">
+								<img src="{% static 'tycoon/plus.png' %}" alt="더하기" class="img-responsive plus">
+							</div>
+							<div class="col-xs-3" id="item-right">
+								<img src="{{ comb.combination.item2.icon.url }}" class="img-responsive img-rounded">
+							</div>
+							<br>
+						</div>
+						<p class="text-center">{{ comb.combination.item1 }} + {{ comb.combination.item2 }}</p>
+						<p class="col-xs-10 col-xs-offset-1 text-center">{{ comb.combination.explanation }}</p>
+						
 
 			        	{% endif %}
 			        {% endfor %}

@@ -56,6 +56,7 @@ var itemEventHandler = function(e) {
 			}
 			else if(data.before) {
 				$('img#item-combined').replaceWith("<img combined='true' id='item-combined' src='"+data.nitem.url+"' class='img-responsive img-rounded'>");
+				$('#text_name').val(data.nitem.explanation);
 			}
 			else {
 				$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/question.png' class='img-responsive img-rounded'>");
@@ -71,6 +72,7 @@ var itemEventHandler = function(e) {
 								alert("축하합니다! 다음 조합법을 발견하였습니다!\n" +
 									$("#item-left").children().first().attr("alt") + " + " +
 									$("#item-right").children().first().attr("alt") + " = " + data.nitem.name);
+								$('#text_name').val(data.nitem.explanation);
 							});
 					});
 				});
@@ -91,6 +93,7 @@ $("#item-left").bind("click", function(e) {
 		left = false;
 
 		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('#text_name').val('');
 	}
 });
 
@@ -104,6 +107,7 @@ $("#item-right").bind("click", function(e) {
 		right = false;
 
 		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
+		$('#text_name').val('');
 	}
 });
 
