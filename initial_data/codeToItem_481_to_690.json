@@ -1,0 +1,1892 @@
+[
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 481,
+		"fields": {
+			"code": "꿀잠은 언제나 옳다",
+			"item": 21,
+			"explanation": "꿀잠은 언제나 옳다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 482,
+		"fields": {
+			"code": "꿀잠 넘나 좋은 것",
+			"item": 21,
+			"explanation": "꿀잠 넘나 좋은 것"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 483,
+		"fields": {
+			"code": "허니잠허니잠",
+			"item": 21,
+			"explanation": "허니잠허니잠"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 484,
+		"fields": {
+			"code": "달달하다달달해",
+			"item": 21,
+			"explanation": "달달하다달달해"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 485,
+		"fields": {
+			"code": "꾸우울자아암",
+			"item": 21,
+			"explanation": "꾸우울자아암"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 486,
+		"fields": {
+			"code": "주말엔 꿀잠이지",
+			"item": 21,
+			"explanation": "주말엔 꿀잠이지"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 487,
+		"fields": {
+			"code": "꿀꿀 돼지가 꿀꿀꿀잠",
+			"item": 21,
+			"explanation": "꿀꿀 돼지가 꿀꿀꿀잠"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 488,
+		"fields": {
+			"code": "졸려어 이럴땐 꿀잠각",
+			"item": 21,
+			"explanation": "졸려어 이럴땐 꿀잠각"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 489,
+		"fields": {
+			"code": "쿨쿨 꿀잠꿀잠",
+			"item": 21,
+			"explanation": "쿨쿨 꿀잠꿀잠"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 490,
+		"fields": {
+			"code": "꾸우우우우울자아아암",
+			"item": 21,
+			"explanation": "꾸우우우우울자아아암"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 491,
+		"fields": {
+			"code": "자고싶다자고싶다",
+			"item": 21,
+			"explanation": "자고싶다자고싶다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 492,
+		"fields": {
+			"code": "이불덮고눕고싶다",
+			"item": 21,
+			"explanation": "이불덮고눕고싶다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 493,
+		"fields": {
+			"code": "아잠와너무잠와잠와자뫄",
+			"item": 21,
+			"explanation": "아잠와너무잠와잠와자뫄"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 494,
+		"fields": {
+			"code": "자고싶어엉엉엉",
+			"item": 21,
+			"explanation": "자고싶어엉엉엉"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 495,
+		"fields": {
+			"code": "졸리면 자야지 뭐",
+			"item": 21,
+			"explanation": "졸리면 자야지 뭐"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 496,
+		"fields": {
+			"code": "너무졸려자고싶다쿨쿨쿨",
+			"item": 21,
+			"explanation": "너무졸려자고싶다쿨쿨쿨"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 497,
+		"fields": {
+			"code": "자고싶으면자는거야",
+			"item": 21,
+			"explanation": "자고싶으면자는거야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 498,
+		"fields": {
+			"code": "넘나 졸린 것",
+			"item": 21,
+			"explanation": "넘나 졸린 것"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 499,
+		"fields": {
+			"code": "너무 잘 잔다 아주 칭찬해~",
+			"item": 21,
+			"explanation": "너무 잘 잔다 아주 칭찬해~"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 500,
+		"fields": {
+			"code": "쿨쿨쿨쿨쿨쿨쿨쿨",
+			"item": 21,
+			"explanation": "쿨쿨쿨쿨쿨쿨쿨쿨"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 501,
+		"fields": {
+			"code": "토요일과 일요일은 주말",
+			"item": 22,
+			"explanation": "토요일과 일요일은 주말"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 502,
+		"fields": {
+			"code": "금요일이 지나면 주말이 온다",
+			"item": 22,
+			"explanation": "금요일이 지나면 주말이 온다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 503,
+		"fields": {
+			"code": "이 날이 오기만을 기다렸다",
+			"item": 22,
+			"explanation": "이 날이 오기만을 기다렸다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 504,
+		"fields": {
+			"code": "금토일금토일이었으면",
+			"item": 22,
+			"explanation": "금토일금토일이었으면"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 505,
+		"fields": {
+			"code": "주말은 너무 빨리 지나가버려",
+			"item": 22,
+			"explanation": "주말은 너무 빨리 지나가버려"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 506,
+		"fields": {
+			"code": "주말이 지나면 월요일 극혐",
+			"item": 22,
+			"explanation": "주말이 지나면 월요일 극혐"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 507,
+		"fields": {
+			"code": "주말엔 집을 가자",
+			"item": 22,
+			"explanation": "주말엔 집을 가자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 508,
+		"fields": {
+			"code": "주말에도 과제가",
+			"item": 22,
+			"explanation": "주말에도 과제가"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 509,
+		"fields": {
+			"code": "호에 주말에 수업이",
+			"item": 22,
+			"explanation": "호에 주말에 수업이"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 510,
+		"fields": {
+			"code": "주말 너무 됴아됴아",
+			"item": 22,
+			"explanation": "주말 너무 됴아됴아"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 511,
+		"fields": {
+			"code": "주말 넘넘 행복하구연",
+			"item": 22,
+			"explanation": "주말 넘넘 행복하구연"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 512,
+		"fields": {
+			"code": "행 주말 복",
+			"item": 22,
+			"explanation": "행 주말 복"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 513,
+		"fields": {
+			"code": "주말에는 과제 없을 것 같지",
+			"item": 22,
+			"explanation": "주말에는 과제 없을 것 같지"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 514,
+		"fields": {
+			"code": "주말은 신이 내린 선물이란다",
+			"item": 22,
+			"explanation": "주말은 신이 내린 선물이란다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 515,
+		"fields": {
+			"code": "주말 하루만 더 길었으면",
+			"item": 22,
+			"explanation": "주말 하루만 더 길었으면"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 516,
+		"fields": {
+			"code": "말주말주말주말",
+			"item": 22,
+			"explanation": "말주말주말주말"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 517,
+		"fields": {
+			"code": "주말이다 꺄르륵",
+			"item": 22,
+			"explanation": "주말이다 꺄르륵"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 518,
+		"fields": {
+			"code": "아싸 금요일 내일은 주말",
+			"item": 22,
+			"explanation": "아싸 금요일 내일은 주말"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 519,
+		"fields": {
+			"code": "주우우우우마아아알",
+			"item": 22,
+			"explanation": "주우우우우마아아알"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 520,
+		"fields": {
+			"code": "쥬말쥬말쥬말쥬말",
+			"item": 22,
+			"explanation": "쥬말쥬말쥬말쥬말"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 521,
+		"fields": {
+			"code": "지각이다 망했다",
+			"item": 23,
+			"explanation": "지각이다 망했다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 522,
+		"fields": {
+			"code": "지금 몇 시야 망했네",
+			"item": 23,
+			"explanation": "지금 몇 시야 망했네"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 523,
+		"fields": {
+			"code": "자네 지금이 몇 신데 지금 오는 건가",
+			"item": 23,
+			"explanation": "자네 지금이 몇 신데 지금 오는 건가"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 524,
+		"fields": {
+			"code": "에베베 지각잼",
+			"item": 23,
+			"explanation": "에베베 지각잼"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 525,
+		"fields": {
+			"code": "늦었다리늦었다",
+			"item": 23,
+			"explanation": "늦었다리늦었다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 526,
+		"fields": {
+			"code": "이미 지각임 수고",
+			"item": 23,
+			"explanation": "이미 지각임 수고"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 527,
+		"fields": {
+			"code": "지각이래요 지각이래요",
+			"item": 23,
+			"explanation": "지각이래요 지각이래요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 528,
+		"fields": {
+			"code": "안녕 넌 지각이란다",
+			"item": 23,
+			"explanation": "안녕 넌 지각이란다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 529,
+		"fields": {
+			"code": "오늘도 지각",
+			"item": 23,
+			"explanation": "오늘도 지각"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 530,
+		"fields": {
+			"code": "일어난 시간이 수업 시작 시간",
+			"item": 23,
+			"explanation": "일어난 시간이 수업 시작 시간"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 531,
+		"fields": {
+			"code": "워후 지각이군",
+			"item": 23,
+			"explanation": "워후 지각이군"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 532,
+		"fields": {
+			"code": "큰일났군 얼른 가야지",
+			"item": 23,
+			"explanation": "큰일났군 얼른 가야지"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 533,
+		"fields": {
+			"code": "다음부턴 일찍 일찍 다니렴",
+			"item": 23,
+			"explanation": "다음부턴 일찍 일찍 다니렴"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 534,
+		"fields": {
+			"code": "응 지각이야",
+			"item": 23,
+			"explanation": "응 지각이야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 535,
+		"fields": {
+			"code": "오늘도 늦는구나",
+			"item": 23,
+			"explanation": "오늘도 늦는구나"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 536,
+		"fields": {
+			"code": "내일은 일찍 오렴",
+			"item": 23,
+			"explanation": "내일은 일찍 오렴"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 537,
+		"fields": {
+			"code": "제발 제 시간에 와주려무나",
+			"item": 23,
+			"explanation": "제발 제 시간에 와주려무나"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 538,
+		"fields": {
+			"code": "포스텍 타임",
+			"item": 23,
+			"explanation": "포스텍 타임"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 539,
+		"fields": {
+			"code": "삐빅 지각입니다",
+			"item": 23,
+			"explanation": "삐빅 지각입니다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 540,
+		"fields": {
+			"code": "지각쟁이 하이",
+			"item": 23,
+			"explanation": "지각쟁이 하이"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 541,
+		"fields": {
+			"code": "너의 학점은.",
+			"item": 24,
+			"explanation": "너의 학점은."
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 542,
+		"fields": {
+			"code": "에이비씨디이에프",
+			"item": 24,
+			"explanation": "에이비씨디이에프"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 543,
+		"fields": {
+			"code": "엪엪에프에프에프",
+			"item": 24,
+			"explanation": "엪엪에프에프에프"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 544,
+		"fields": {
+			"code": "너 예쁘다 너 에프다",
+			"item": 24,
+			"explanation": "너 예쁘다 너 에프다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 545,
+		"fields": {
+			"code": "에프엑스는 함수",
+			"item": 24,
+			"explanation": "에프엑스는 함수"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 546,
+		"fields": {
+			"code": "F는 0점이란다",
+			"item": 24,
+			"explanation": "F는 0점이란다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 547,
+		"fields": {
+			"code": "에이쁠로 커버쳐야함",
+			"item": 24,
+			"explanation": "에이쁠로 커버쳐야함"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 548,
+		"fields": {
+			"code": "F라니 내가 F라니",
+			"item": 24,
+			"explanation": "F라니 내가 F라니"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 549,
+		"fields": {
+			"code": "쌍권총으로 F 빵빵",
+			"item": 24,
+			"explanation": "쌍권총으로 F 빵빵"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 550,
+		"fields": {
+			"code": "퍼버벙 학점 터지는 소리",
+			"item": 24,
+			"explanation": "퍼버벙 학점 터지는 소리"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 551,
+		"fields": {
+			"code": "다음 학기에는 열심히 하자",
+			"item": 24,
+			"explanation": "다음 학기에는 열심히 하자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 552,
+		"fields": {
+			"code": "엉엉 F를 받다니",
+			"item": 24,
+			"explanation": "엉엉 F를 받다니"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 553,
+		"fields": {
+			"code": "E 다음에는 F란다",
+			"item": 24,
+			"explanation": "E 다음에는 F란다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 554,
+		"fields": {
+			"code": "알파벳 하나로 네 심장을 두근두근",
+			"item": 24,
+			"explanation": "알파벳 하나로 네 심장을 두근두근"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 555,
+		"fields": {
+			"code": "넌 에프야",
+			"item": 24,
+			"explanation": "넌 에프야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 556,
+		"fields": {
+			"code": "에프지만 괜찮아",
+			"item": 24,
+			"explanation": "에프지만 괜찮아"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 557,
+		"fields": {
+			"code": "F 폭격 쿠구궁",
+			"item": 24,
+			"explanation": "F 폭격 쿠구궁"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 558,
+		"fields": {
+			"code": "출석만 잘하면 F는 안 받아요",
+			"item": 24,
+			"explanation": "출석만 잘하면 F는 안 받아요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 559,
+		"fields": {
+			"code": "두근두근 내 학점은",
+			"item": 24,
+			"explanation": "두근두근 내 학점은"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 560,
+		"fields": {
+			"code": "F 받지말자",
+			"item": 24,
+			"explanation": "F 받지말자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 561,
+		"fields": {
+			"code": "사랑의 총알 빵야빵야",
+			"item": 25,
+			"explanation": "사랑의 총알 빵야빵야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 562,
+		"fields": {
+			"code": "교수님이 지켜보고 있다",
+			"item": 25,
+			"explanation": "교수님이 지켜보고 있다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 563,
+		"fields": {
+			"code": "언제나 교수님이 당신의 뒤에",
+			"item": 25,
+			"explanation": "언제나 교수님이 당신의 뒤에"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 564,
+		"fields": {
+			"code": "교수님 사랑해요 러브러브",
+			"item": 25,
+			"explanation": "교수님 사랑해요 러브러브"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 565,
+		"fields": {
+			"code": "여기도 봐주세요 교수님",
+			"item": 25,
+			"explanation": "여기도 봐주세요 교수님"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 566,
+		"fields": {
+			"code": "사랑합니다 뿅뿅",
+			"item": 25,
+			"explanation": "사랑합니다 뿅뿅"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 567,
+		"fields": {
+			"code": "교수님의 귀염둥이 데헷",
+			"item": 25,
+			"explanation": "교수님의 귀염둥이 데헷"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 568,
+		"fields": {
+			"code": "앙뇽 난 교수님의 귀욤둥이얌",
+			"item": 25,
+			"explanation": "앙뇽 난 교수님의 귀욤둥이얌"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 569,
+		"fields": {
+			"code": "루키루키 넌 나의 루키루키루키",
+			"item": 25,
+			"explanation": "루키루키 넌 나의 루키루키루키"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 570,
+		"fields": {
+			"code": "내가 널 아낀다",
+			"item": 25,
+			"explanation": "내가 널 아낀다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 571,
+		"fields": {
+			"code": "우쭈쭈 이리오게",
+			"item": 25,
+			"explanation": "우쭈쭈 이리오게"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 572,
+		"fields": {
+			"code": "러브 교수님 러브",
+			"item": 25,
+			"explanation": "러브 교수님 러브"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 573,
+		"fields": {
+			"code": "내 자리는 항상 맨 앞자리야",
+			"item": 25,
+			"explanation": "내 자리는 항상 맨 앞자리"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 574,
+		"fields": {
+			"code": "자네 앞으로 앞쪽에 앉게",
+			"item": 25,
+			"explanation": "자네 앞으로 앞쪽에 앉게"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 575,
+		"fields": {
+			"code": "교수님 닭다리 드세요",
+			"item": 25,
+			"explanation": "교수님 닭다리 드세요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 576,
+		"fields": {
+			"code": "제게도 사랑과 관심을",
+			"item": 25,
+			"explanation": "제게도 사랑과 관심을"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 577,
+		"fields": {
+			"code": "저도 좋아해주세요 겨수님",
+			"item": 25,
+			"explanation": "저도 좋아해주세요 겨수님"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 578,
+		"fields": {
+			"code": "쏴랑합니다 마이 러브 교수님",
+			"item": 25,
+			"explanation": "쏴랑합니다 마이 러브 교수님"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 579,
+		"fields": {
+			"code": "여기 와서 이것 좀 먹어보게",
+			"item": 25,
+			"explanation": "여기 와서 이것 좀 먹어보게"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 580,
+		"fields": {
+			"code": "참 잘해 아주 칭찬해",
+			"item": 25,
+			"explanation": "참 잘해 아주 칭찬해"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 581,
+		"fields": {
+			"code": "우리 과에서 내가 탑",
+			"item": 26,
+			"explanation": "우리 과에서 내가 탑"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 582,
+		"fields": {
+			"code": "내가 과탑이라니",
+			"item": 26,
+			"explanation": "내가 과탑이라니"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 583,
+		"fields": {
+			"code": "빅뱅엔 탑 난 과탑",
+			"item": 26,
+			"explanation": "빅뱅엔 탑 난 과탑"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 584,
+		"fields": {
+			"code": "과에서 1등",
+			"item": 26,
+			"explanation": "과에서 1등"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 585,
+		"fields": {
+			"code": "티오피 탑",
+			"item": 26,
+			"explanation": "티오피 탑"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 586,
+		"fields": {
+			"code": "고등학교때처럼만 공부하면 과탑가능",
+			"item": 26,
+			"explanation": "고등학교때처럼만 공부하면 과탑가능"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 587,
+		"fields": {
+			"code": "평점 4.3",
+			"item": 26,
+			"explanation": "평점 4.3"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 588,
+		"fields": {
+			"code": "도문상을 노리자",
+			"item": 26,
+			"explanation": "도문상을 노리자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 589,
+		"fields": {
+			"code": "올 에이쁠",
+			"item": 26,
+			"explanation": "올 에이쁠"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 590,
+		"fields": {
+			"code": "청암에 거주하시는 분",
+			"item": 26,
+			"explanation": "청암에 거주하시는 분"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 591,
+		"fields": {
+			"code": "청암에서 숙식해결",
+			"item": 26,
+			"explanation": "청암에서 숙식해결"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 592,
+		"fields": {
+			"code": "갓갓 지니어스",
+			"item": 26,
+			"explanation": "갓갓 지니어스"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 593,
+		"fields": {
+			"code": "키야 무우려 과탑",
+			"item": 26,
+			"explanation": "키야 무우려 과탑"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 594,
+		"fields": {
+			"code": "과탑탑탑탒",
+			"item": 26,
+			"explanation": "과탑탑탑탒"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 595,
+		"fields": {
+			"code": "크 멋져멋져",
+			"item": 26,
+			"explanation": "크 멋져멋져"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 596,
+		"fields": {
+			"code": "대다나다",
+			"item": 26,
+			"explanation": "대다나다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 597,
+		"fields": {
+			"code": "과아아아타아아압",
+			"item": 26,
+			"explanation": "과아아아타아아압"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 598,
+		"fields": {
+			"code": "축하합니다 짝짝",
+			"item": 26,
+			"explanation": "축하합니다 짝짝"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 599,
+		"fields": {
+			"code": "콩그레츄레이션 추카포카",
+			"item": 26,
+			"explanation": "콩그레츄레이션 추카포카"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 600,
+		"fields": {
+			"code": "킹갓엠페러제너럴충무공마제스티",
+			"item": 26,
+			"explanation": "킹갓엠페러제너럴충무공마제스티"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 601,
+		"fields": {
+			"code": "월화수목금",
+			"item": 27,
+			"explanation": "월화수목금"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 602,
+		"fields": {
+			"code": "주말 언제 옴",
+			"item": 27,
+			"explanation": "주말 언제 옴"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 603,
+		"fields": {
+			"code": "무려 5일이나 돼",
+			"item": 27,
+			"explanation": "무려 5일이나 돼"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 604,
+		"fields": {
+			"code": "일요일이 끝나면 평일",
+			"item": 27,
+			"explanation": "일요일이 끝나면 평일"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 605,
+		"fields": {
+			"code": "월요일9시30분수업극혐",
+			"item": 27,
+			"explanation": "월요일9시30분수업극혐"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 606,
+		"fields": {
+			"code": "2학기엔월요일8시에퀴즈를본단다깔깔",
+			"item": 27,
+			"explanation": "2학기엔월요일8시에퀴즈를본단다깔깔"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 607,
+		"fields": {
+			"code": "주말 순삭잼",
+			"item": 27,
+			"explanation": "주말 순삭잼"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 608,
+		"fields": {
+			"code": "후에에엥 평일 시져",
+			"item": 27,
+			"explanation": "후에에엥 평일 시져"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 609,
+		"fields": {
+			"code": "아 내일 월요일이야",
+			"item": 27,
+			"explanation": "아 내일 월요일이야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 610,
+		"fields": {
+			"code": "내 피 같은 주말",
+			"item": 27,
+			"explanation": "내 피 같은 주말"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 611,
+		"fields": {
+			"code": "일주일 시작",
+			"item": 27,
+			"explanation": "일주일 시작"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 612,
+		"fields": {
+			"code": "다시 달려보자",
+			"item": 27,
+			"explanation": "다시 달려보자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 613,
+		"fields": {
+			"code": "월욜화욜수욜목욜금욜",
+			"item": 27,
+			"explanation": "월욜화욜수욜목욜금욜"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 614,
+		"fields": {
+			"code": "평일평평평일",
+			"item": 27,
+			"explanation": "평일평평평일"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 615,
+		"fields": {
+			"code": "아직도 수요일",
+			"item": 27,
+			"explanation": "아직도 수요일"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 616,
+		"fields": {
+			"code": "너무 길어어어어",
+			"item": 27,
+			"explanation": "너무 길어어어어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 617,
+		"fields": {
+			"code": "언제 끝나는거야",
+			"item": 27,
+			"explanation": "언제 끝나는거야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 618,
+		"fields": {
+			"code": "제발 끝나라 빨리",
+			"item": 27,
+			"explanation": "제발 끝나라 빨리"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 619,
+		"fields": {
+			"code": "늦게까지 자고 싶다 엉엉",
+			"item": 27,
+			"explanation": "늦게까지 자고 싶다 엉엉"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 620,
+		"fields": {
+			"code": "아침수업너무싫어",
+			"item": 27,
+			"explanation": "아침수업너무싫어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 621,
+		"fields": {
+			"code": "수업 없어요 없어",
+			"item": 28,
+			"explanation": "수업 없어요 없어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 622,
+		"fields": {
+			"code": "공강공강넘신나는공강",
+			"item": 28,
+			"explanation": "공강공강넘신나는공강"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 623,
+		"fields": {
+			"code": "오늘 공강이다 우어어",
+			"item": 28,
+			"explanation": "오늘 공강이다 우어어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 624,
+		"fields": {
+			"code": "오늘은 수업을 하지 않습니다",
+			"item": 28,
+			"explanation": "오늘은 수업을 하지 않습니다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 625,
+		"fields": {
+			"code": "수업 없다아아아",
+			"item": 28,
+			"explanation": "수업 없다아아아"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 626,
+		"fields": {
+			"code": "공강 너무 죠아",
+			"item": 28,
+			"explanation": "공강 너무 죠아"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 627,
+		"fields": {
+			"code": "꺄르르 공강공강",
+			"item": 28,
+			"explanation": "꺄르르 공강공강"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 628,
+		"fields": {
+			"code": "펑 수업이 터졌습니다",
+			"item": 28,
+			"explanation": "펑 수업이 터졌습니다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 629,
+		"fields": {
+			"code": "공강에 축배를 들자",
+			"item": 28,
+			"explanation": "공강에 축배를 들자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 630,
+		"fields": {
+			"code": "이 시간에 뭘 할까 룰루랄라",
+			"item": 28,
+			"explanation": "이 시간에 뭘 할까 룰루랄라"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 631,
+		"fields": {
+			"code": "호롤롤로 공강잼",
+			"item": 28,
+			"explanation": "수업 없어요 없어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 632,
+		"fields": {
+			"code": "방에서 쉬어야지 개꿀",
+			"item": 28,
+			"explanation": "방에서 쉬어야지 개꿀"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 633,
+		"fields": {
+			"code": "po우주공강wer",
+			"item": 28,
+			"explanation": "po우주공강wer"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 634,
+		"fields": {
+			"code": "고오오옹가아앙",
+			"item": 28,
+			"explanation": "고오오옹가아앙"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 635,
+		"fields": {
+			"code": "공강공강공강공강",
+			"item": 28,
+			"explanation": "공강공강공강공강"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 636,
+		"fields": {
+			"code": "공이랑 강",
+			"item": 28,
+			"explanation": "공이랑 강"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 637,
+		"fields": {
+			"code": "볼 앤드 리버",
+			"item": 28,
+			"explanation": "볼 앤드 리버"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 638,
+		"fields": {
+			"code": "없음 수업 없음",
+			"item": 28,
+			"explanation": "없음 수업 없음"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 639,
+		"fields": {
+			"code": "자체 공강 해버리기",
+			"item": 28,
+			"explanation": "자체 공강 해버리기"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 640,
+		"fields": {
+			"code": "수업 없다 깔깔",
+			"item": 28,
+			"explanation": "수업 없다 깔깔"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 641,
+		"fields": {
+			"code": "뭐했다고 벌써 시험이람",
+			"item": 29,
+			"explanation": "뭐했다고 벌써 시험이람"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 642,
+		"fields": {
+			"code": "청암에서 살아야지",
+			"item": 29,
+			"explanation": "청암에서 살아야지"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 643,
+		"fields": {
+			"code": "우어어어 시험기간",
+			"item": 29,
+			"explanation": "우어어어 시험기간"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 644,
+		"fields": {
+			"code": "과제폭탄 후 시험잼",
+			"item": 29,
+			"explanation": "과제폭탄 후 시험잼"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 645,
+		"fields": {
+			"code": "나를 시험에 들게 하지 마소서",
+			"item": 29,
+			"explanation": "나를 시험에 들게 하지 마소서"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 646,
+		"fields": {
+			"code": "중간고사 기말고사",
+			"item": 29,
+			"explanation": "중간고사 기말고사"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 647,
+		"fields": {
+			"code": "퀴즈퀴즈퀴즈시험퀴즈퀴즈퀴즈",
+			"item": 29,
+			"explanation": "퀴즈퀴즈퀴즈시험퀴즈퀴즈퀴즈"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 648,
+		"fields": {
+			"code": "셤셤셤셤셤",
+			"item": 29,
+			"explanation": "셤셤셤셤셤"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 649,
+		"fields": {
+			"code": "4월에는 중간고사가",
+			"item": 29,
+			"explanation": "4월에는 중간고사가"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 650,
+		"fields": {
+			"code": "6월엔 기말고사",
+			"item": 29,
+			"explanation": "6월엔 기말고사"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 651,
+		"fields": {
+			"code": "엥 벌써 시험이야",
+			"item": 29,
+			"explanation": "엥 벌써 시험이야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 652,
+		"fields": {
+			"code": "시험시져시험시져",
+			"item": 29,
+			"explanation": "시험시져시험시져"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 653,
+		"fields": {
+			"code": "시험끝나면방학이랍니다",
+			"item": 29,
+			"explanation": "시험끝나면방학이랍니다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 654,
+		"fields": {
+			"code": "마지막까지 최선을 다하자",
+			"item": 29,
+			"explanation": "마지막까지 최선을 다하자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 655,
+		"fields": {
+			"code": "종강 시험 방학",
+			"item": 29,
+			"explanation": "종강 시험 방학"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 656,
+		"fields": {
+			"code": "시험셤시험셤시험",
+			"item": 29,
+			"explanation": "시험셤시험셤시험"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 657,
+		"fields": {
+			"code": "청암 궈궈",
+			"item": 29,
+			"explanation": "청암 궈궈"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 658,
+		"fields": {
+			"code": "시험공부엉엉엉",
+			"item": 29,
+			"explanation": "시험공부엉엉엉람"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 659,
+		"fields": {
+			"code": "시험 넘나 싫어",
+			"item": 29,
+			"explanation": "시험 넘나 싫어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 660,
+		"fields": {
+			"code": "시험만 끝나면 이것만 끝나면",
+			"item": 29,
+			"explanation": "시험만 끝나면 이것만 끝나면"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 661,
+		"fields": {
+			"code": "이건 overdose",
+			"item": 30,
+			"explanation": "이건 overdose"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 662,
+		"fields": {
+			"code": "넌 내게 빠져들어",
+			"item": 30,
+			"explanation": "넌 내게 빠져들어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 663,
+		"fields": {
+			"code": "게임중독 알코올중독",
+			"item": 30,
+			"explanation": "게임중독 알코올중독"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 664,
+		"fields": {
+			"code": "중독은 나쁜거에욥",
+			"item": 30,
+			"explanation": "중독은 나쁜거에욥"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 665,
+		"fields": {
+			"code": "뭐든 적당히",
+			"item": 30,
+			"explanation": "뭐든 적당히"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 666,
+		"fields": {
+			"code": "너무 빠져들지 말아요",
+			"item": 30,
+			"explanation": "너무 빠져들지 말아요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 667,
+		"fields": {
+			"code": "어서 거기서 헤어나오세요",
+			"item": 30,
+			"explanation": "어서 거기서 헤어나오세요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 668,
+		"fields": {
+			"code": "헤어나올 수 없어",
+			"item": 30,
+			"explanation": "헤어나올 수 없어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 669,
+		"fields": {
+			"code": "중독되어버렸으",
+			"item": 30,
+			"explanation": "중독되어버렸으"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 670,
+		"fields": {
+			"code": "너무 많이 하면 안 좋아요",
+			"item": 30,
+			"explanation": "너무 많이 하면 안 좋아요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 671,
+		"fields": {
+			"code": "적당적당히 하세요",
+			"item": 30,
+			"explanation": "적당적당히 하세요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 672,
+		"fields": {
+			"code": "이제 그만해 그만하란말야",
+			"item": 30,
+			"explanation": "이제 그만해 그만하란말야"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 673,
+		"fields": {
+			"code": "크헉 중독되어버려따",
+			"item": 30,
+			"explanation": "크헉 중독되어버려따"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 674,
+		"fields": {
+			"code": "넌 내게 빠져 넌 내게 미쳐",
+			"item": 30,
+			"explanation": "넌 내게 빠져 넌 내게 미쳐"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 675,
+		"fields": {
+			"code": "암욜맨암욜맨그대여따라닷따오늘도",
+			"item": 30,
+			"explanation": "암욜맨암욜맨그대여따라닷따오늘도"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 676,
+		"fields": {
+			"code": "링딩동링딩동링디기딩딩딩딩딩",
+			"item": 30,
+			"explanation": "링딩동링딩동링디기딩딩딩딩딩"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 677,
+		"fields": {
+			"code": "중독은 안 좋아요",
+			"item": 30,
+			"explanation": "중독은 안 좋아요"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 678,
+		"fields": {
+			"code": "투머치해 투머치",
+			"item": 30,
+			"explanation": "투머치해 투머치"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 679,
+		"fields": {
+			"code": "한번빠지면헤어나오기힘들어져",
+			"item": 30,
+			"explanation": "한번빠지면헤어나오기힘들어져"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 680,
+		"fields": {
+			"code": "선을 넘지말자",
+			"item": 30,
+			"explanation": "선을 넘지말자"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 681,
+		"fields": {
+			"code": "왜 멈추질 못하니",
+			"item": 30,
+			"explanation": "왜 멈추질 못하니"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 682,
+		"fields": {
+			"code": "또 폰만지니",
+			"item": 30,
+			"explanation": "또 폰만지니"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 683,
+		"fields": {
+			"code": "게임 좀 그만해라",
+			"item": 30,
+			"explanation": "게임 좀 그만해라"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 684,
+		"fields": {
+			"code": "잠을 포기하고 게임을 선택한다",
+			"item": 30,
+			"explanation": "잠을 포기하고 게임을 선택한다"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 685,
+		"fields": {
+			"code": "생활패턴 망해버리기",
+			"item": 30,
+			"explanation": "생활패턴 망해버리기"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 686,
+		"fields": {
+			"code": "계속 생각나",
+			"item": 30,
+			"explanation": "계속 생각나"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 687,
+		"fields": {
+			"code": "멈출 수 없어 참을 수 없어",
+			"item": 30,
+			"explanation": "멈출 수 없어 참을 수 없어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 688,
+		"fields": {
+			"code": "나도 그만하고 싶어",
+			"item": 30,
+			"explanation": "나도 그만하고 싶어"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 689,
+		"fields": {
+			"code": "제발 여기서 벗어나게 해줘",
+			"item": 30,
+			"explanation": "제발 여기서 벗어나게 해줘"
+		}	
+	},
+	{
+		"model": "tycoon.codeToItem",
+		"pk": 690,
+		"fields": {
+			"code": "좋은 것도 너무 많이 하면 문제",
+			"item": 30,
+			"explanation": "좋은 것도 너무 많이 하면 문제"
+		}	
+	}
+]

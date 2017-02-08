@@ -83,7 +83,8 @@ def avatar(request, id=None):
 	if id == None :
 		id = request.user.id
 	avatar = Avatar.objects.get(host=id)
-	return render(request, 'tycoon/avatar.html', {'avatar': avatar})
+	maximum = max([avatar.strength, avatar.intelligence, avatar.luck, avatar.surplus, avatar.charm]) / 5 * 5 + 5
+	return render(request, 'tycoon/avatar.html', {'avatar': avatar, 'maximum': maximum })
 
 @login_required(login_url='/login/')
 def codeToItem(request):
@@ -127,10 +128,10 @@ def mission(request):
 def itemBook(request):
 	item_list = Item.objects.all()
 	avatar = Avatar.objects.get(host=request.user.id)
-	item_name_list = [item_list[i].name for i in range(len(item_list))]
+	item_name_list = [item_list[i].name for i in range(len(item_list)) if not item_list[i].event]
 	own_list = avatar.item_list.all()
 	own_name_list = [own_list[i].name for i in range(len(own_list))]
-	c = [item_name_list[i] in own_name_list for i in range(len(item_list))]
+	c = [item_name_list[i] in own_name_list for i in range(len(item_name_list))]
 	item_list = zip(item_list, c)
 
 	#Combination Contain list
@@ -159,4 +160,5 @@ def use(request):
 			pass
 	
 	own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
-	return render(request, 'tycoon/use.html', {'avatar': avatar, 'clist': own_list})
+	maximum = max([avatar.strength, avatar.intelligence, avatar.luck, avatar.surplus, avatar.charm]) / 5 * 5 + 5
+	return render(request, 'tycoon/use.html', {'avatar': avatar, 'clist': own_list, 'maximum': maximum })

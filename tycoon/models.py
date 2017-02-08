@@ -19,6 +19,7 @@ class Item(models.Model):
 	charm = models.IntegerField(default=0)
 	surplus = models.IntegerField(default=0)
 	luck = models.IntegerField(default=0)
+	event = models.BooleanField(default=False)
 
 	def __str__(self):
 		return self.name
