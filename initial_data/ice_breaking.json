@@ -1,0 +1,212 @@
+[	
+	{
+		"model": "tycoon.item",
+		"pk": 49,
+		"fields": {
+			"name": "1분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 50,
+		"fields": {
+			"name": "2분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 51,
+		"fields": {
+			"name": "3분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 52,
+		"fields": {
+			"name": "4분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 53,
+		"fields": {
+			"name": "5분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 54,
+		"fields": {
+			"name": "6분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 55,
+		"fields": {
+			"name": "7분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 56,
+		"fields": {
+			"name": "8분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 57,
+		"fields": {
+			"name": "9분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 58,
+		"fields": {
+			"name": "10분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 59,
+		"fields": {
+			"name": "11분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 60,
+		"fields": {
+			"name": "12분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 61,
+		"fields": {
+			"name": "13분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 62,
+		"fields": {
+			"name": "14분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	},
+	{
+		"model": "tycoon.item",
+		"pk": 63,
+		"fields": {
+			"name": "15분반 아이스브레이킹",
+			"icon": "images/icon/ice_breaking.png",
+			"strength": 1,
+			"intelligence": 1,
+			"surplus": -1,
+			"charm": 0,
+			"luck": 1,
+			"event": true
+		}
+	}
+]

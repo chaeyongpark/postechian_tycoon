@@ -8,6 +8,7 @@ all:
 	./manage.py loaddata initial_data/codeToItem_691_to_900.json
 	./manage.py loaddata initial_data/codeToItem_901_to_1070.json
 	./manage.py loaddata initial_data/mission.json
+	./manage.py loaddata initial_data/ice_breaking.json
 
 codeToItem:
 	./manage.py loaddata initial_data/codeToItem_1_to_240.json
@@ -18,4 +19,6 @@ codeToItem:
 
 item:
 	./manage.py loaddata initial_data/initial_item.json
-	
+
+ice_breaking:
+	./manage.py loaddata initial_data/ice_breaking.json

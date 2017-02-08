@@ -72,7 +72,7 @@ var itemEventHandler = function(e) {
 								alert("축하합니다! 다음 조합법을 발견하였습니다!\n" +
 									$("#item-left").children().first().attr("alt") + " + " +
 									$("#item-right").children().first().attr("alt") + " = " + data.nitem.name);
-								$('#explan').val(data.nitem.explanation);
+								$('#explan').text(data.nitem.explanation);
 							});
 					});
 				});
@@ -93,7 +93,7 @@ $("#item-left").bind("click", function(e) {
 		left = false;
 
 		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
-		$('#text_name').val('');
+		$('#explan').text('');
 	}
 });
 
@@ -107,7 +107,7 @@ $("#item-right").bind("click", function(e) {
 		right = false;
 
 		$('img#item-combined').replaceWith("<img combined='false' id='item-combined' src='/static/tycoon/white.png' class='img-responsive img-rounded'>");
-		$('#text_name').val('');
+		$('#explan').text('');
 	}
 });
 
