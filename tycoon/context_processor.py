@@ -8,3 +8,4 @@ def pass_nav_all_users(request):
 	avatars = [ Avatar.objects.get(host=users[i].id).name for i in range(len(users))]
 	all_users = zip(users_id, avatars)
 	return { "login_user": user, "all_users": all_users }
+	#return { }
