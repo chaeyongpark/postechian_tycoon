@@ -118,6 +118,61 @@ def combination(request):
 				'name': comb.new_item.name,
 				'explanation': comb.explanation }, 
 			'before': before})
+
+@login_required(login_url='/login/')
+def lab(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
+	avatar = Avatar.objects.get(host=request.user.id)
+	own_list = avatar.item_list.all().filter(event__exact=False)
+
+	if request.method == 'GET':
+		return render(request, 'tycoon/lab.html', {'avatar': avatar, 'clist': own_list})
+	
+	elif request.method == 'POST':
+
+		# Check if user have had 2 items
+		left_item = Item.objects.get(id=request.POST.get('left', False))
+		right_item = Item.objects.get(id=request.POST.get('right', False))
+		
+		if not left_item in own_list or not right_item in own_list :
+			print "User has never had item"
+			return render(request, 'tycoon/lab.html', {'avatar': avatar, 'clist': own_list})
+
+		# Check if combination exists
+		try:
+			comb = Combination.objects.get(item1__name=left_item.name, item2__name=right_item.name)
+		except:
+			try:
+				comb = Combination.objects.get(item2__name=left_item.name, item1__name=right_item.name)
+			except:
+				# Combination doesn't exist s.t. return nitem.id as 0
+				print "Combination doesn't exist"
+				return JsonResponse({'nitem': {'id': 0, 'url': 'null', 'explanataion': 'Combination does not exist' }})
+		
+		new_item = Item.objects.get(id=comb.new_item.id)
+		avatar.item_list.add(new_item)
+
+		# Check if this combination was used by user
+		try:
+			CombinationContain.objects.get(name=avatar, combination=comb)
+		except:
+			new_combination_contain = CombinationContain(name=avatar, combination=comb)
+			new_combination_contain.save()
+			before = False;
+		else:
+			before = True;
+
+		# Return the results
+		return JsonResponse({'nitem': {
+				'id': comb.new_item.id, 
+				'url': comb.new_item.icon.url, 
+				'name': comb.new_item.name,
+				'explanation': comb.explanation }, 
+			'before': before})
 	
 
 @login_required(login_url='/login/')

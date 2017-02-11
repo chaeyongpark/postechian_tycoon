@@ -14,4 +14,5 @@ urlpatterns = [
 	url(r'^mission/$', views.mission, name='mission'),
 	url(r'^map/$', views.map, name='map'),
 	url(r'^ranking/$', views.ranking, name='ranking'),
+	url(r'^lab/$', views.lab, name='lab'),
 ]
