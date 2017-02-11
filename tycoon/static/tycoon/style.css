@@ -90,3 +90,7 @@ img.gray {
 input#id_password {
 	font-family: sans-serif;
 }
+
+.clickable {
+    cursor: pointer;
+}

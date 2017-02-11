@@ -1,16 +1,32 @@
 #-*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from .models import Item, Avatar, Contain, Combination, CodeToItem, CombinationContain, Mission
+from .models import Map, Close, Item, Avatar, Contain, Combination, CodeToItem, CombinationContain, Mission
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 
 def home(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	return render(request, 'tycoon/home.html')
 
 @login_required(login_url='/login/')
+def map(request):
+	image = Map.objects.get(id=1).image;
+
+	return render(request, 'tycoon/map.html', {'image': image})
+
+@login_required(login_url='/login/')
 def combination(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	avatar = Avatar.objects.get(host=request.user.id)
 	own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
 
@@ -58,6 +74,12 @@ def combination(request):
 			avatar.item_list.add(new_item)
 			new_contain = Contain(name=avatar, item=new_item)
 			new_contain.save()
+			avatar.strength += comb.strength_b
+			avatar.intelligence += comb.intelligence_b
+			avatar.charm += comb.charm_b
+			avatar.surplus += comb.surplus_b
+			avatar.luck += comb.luck_b
+			avatar.save()
 
 		# Check if this combination was used by user
 		try:
@@ -80,6 +102,11 @@ def combination(request):
 
 @login_required(login_url='/login/')
 def avatar(request, id=None):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	if id == None :
 		id = request.user.id
 	avatar = Avatar.objects.get(host=id)
@@ -88,36 +115,46 @@ def avatar(request, id=None):
 
 @login_required(login_url='/login/')
 def codeToItem(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	if request.method == 'GET':
 		return render(request, 'tycoon/codeToItem.html')
 	
 	elif request.method == 'POST':
 		res_code = request.POST.get('codeToItem', False)
 		if res_code == False:
-			message = 'Wrong Code'
+			message = '잘못된 코드입니다 ㅠㅠ'
 			item_img_url = '/static/tycoon/wrong.png'
 		else:
 			try:
 				code_to_item = CodeToItem.objects.get(code=res_code)
 				if code_to_item.is_used == True:
-					message = 'Already used!'
+					message = '이미 사용된 코드입니다 ㅠㅠ'
 					item_img_url = '/static/tycoon/used.png'
 				else:
 					avatar = Avatar.objects.get(host=request.user.id)
-					c = Contain(name=avatar, item=code_to_item.item)
+					c = Contain(name=avatar, item=code_to_item.item)				
 					c.save()
 					item_img_url = code_to_item.item.icon.url
-					message = code_to_item.item.name
+					message = u"축하합니다! 다음 아이템을 얻었습니다: " + code_to_item.item.name
 					code_to_item.is_used = True
 					code_to_item.save()
 					avatar.item_list.add(code_to_item.item)
 			except:
-				message = 'Wrong Code'
+				message = '잘못된 코드입니다 ㅠㅠ'
 				item_img_url = '/static/tycoon/wrong.png'
-				print message
-	 	return JsonResponse({'item_img': item_img_url })
+		print message
+	 	return JsonResponse({'item_img': item_img_url, 'message': message})
 
 def mission(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	mission_list = Mission.objects.all()
 	avatar = Avatar.objects.get(host=request.user.id)
 	mission_clear_list = [mission_list[i] in avatar.mission_list.all() for i in range(len(mission_list))]
@@ -126,6 +163,11 @@ def mission(request):
 
 @login_required(login_url='/login/')
 def itemBook(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	item_list = Item.objects.all()
 	avatar = Avatar.objects.get(host=request.user.id)
 	item_name_list = [item_list[i].name for i in range(len(item_list)) if not item_list[i].event]
@@ -140,6 +182,11 @@ def itemBook(request):
 
 @login_required(login_url='/login/')
 def use(request):
+	is_closed = Close.objects.get(id=1).is_closed;
+
+	if is_closed :
+		return render(request, 'tycoon/close.html')
+
 	avatar = Avatar.objects.get(host=request.user.id)
 
 	if request.method == 'POST':

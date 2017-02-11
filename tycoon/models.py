@@ -95,4 +95,11 @@ class CombinationContain(models.Model):
 	def __str__(self):
 		return self.name.name + " has " + self.combination.new_item.name
 
+class Close(models.Model):
+	is_closed = models.BooleanField(default=False)
 
+	def __str__(self):
+		return str(self.is_closed)
+
+class Map(models.Model):
+	image = models.ImageField(upload_to='images/map/', default='images/map/map.png')

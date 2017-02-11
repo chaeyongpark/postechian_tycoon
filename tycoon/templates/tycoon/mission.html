@@ -14,7 +14,8 @@
 				{% for mission in result %}
 
 				<div class="col-sm-6">
-					<div class="alert {% if mission.1 %}alert-success{% else %}alert-warning{% endif %}" data-toggle="modal" data-target="#mission{{mission.0.id}}">{{mission.0.name}}</div>
+					<a href="#" data-toggle="modal" data-target="#mission{{mission.0.id}}">
+					<div class="alert {% if mission.1 %}alert-success{% else %}alert-warning{% endif %}">{{mission.0.name}}</div></a>
 				</div>
 
 				{% endfor %}

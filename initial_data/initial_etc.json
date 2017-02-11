@@ -1,0 +1,17 @@
+[
+	{
+		"model": "tycoon.close",
+		"pk": 1,
+		"fields": {
+			"is_closed": false
+		}
+	},
+
+	{
+		"model": "tycoon.map",
+		"pk": 1,
+		"fields": {
+			"image": "images/map/map.png"
+		}
+	}
+]

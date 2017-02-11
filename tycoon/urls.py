@@ -12,4 +12,5 @@ urlpatterns = [
 	url(r'^combination/$', views.combination, name='combination'),
 	url(r'^itemBook/$', views.itemBook, name='itemBook'),
 	url(r'^mission/$', views.mission, name='mission'),
+	url(r'^map/$', views.map, name='map'),
 ]
