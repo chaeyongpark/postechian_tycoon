@@ -58,7 +58,8 @@ class Mission(models.Model):
 		return self.name
 
 	def percentage(self):
-		return str(self.avatar_set.count() * 100 / float(Avatar.objects.count())) + "%"
+		users = User.objects.filter(username__startswith='class')
+		return "{:.1f}".format(self.avatar_set.count() * 100 / float(users.count())) + "%"
 
 @python_2_unicode_compatible
 class Avatar(models.Model):
@@ -78,6 +79,9 @@ class Avatar(models.Model):
 
 	def __str__(self):
 		return self.name
+
+	def sum(self):
+		return self.strength + self.intelligence + self.charm + self.surplus + self.luck
 
 @python_2_unicode_compatible
 class Contain(models.Model):

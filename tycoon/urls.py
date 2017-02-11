@@ -13,4 +13,5 @@ urlpatterns = [
 	url(r'^itemBook/$', views.itemBook, name='itemBook'),
 	url(r'^mission/$', views.mission, name='mission'),
 	url(r'^map/$', views.map, name='map'),
+	url(r'^ranking/$', views.ranking, name='ranking'),
 ]

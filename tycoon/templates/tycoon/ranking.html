@@ -1,0 +1,84 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	{% include "tycoon/header.html" %}
+	<body>
+
+		{% include "tycoon/nav.html" %}
+
+		<div class="container visible-xs-block">
+			<h2 class="text-center">랭킹</h2>
+
+			<h3 class="text-center">종합 순위</h3>
+
+			{% for avatar in list %}
+				<p class="text-center">{{avatar.name}} 능력치 총합 {{avatar.sum}}</p>
+			{% endfor %}
+
+			<h3 class="text-center" style="color: red;">강철체력</h3>
+			<h6 class="text-center">{{ strength_k.name }} 체력 {{ strength_k.strength }}</h6>
+
+			<h3 class="text-center" style="color: orange;">똑똑박사</h3>
+			<h6 class="text-center">{{ intelligence_k.name }} 지력 {{ intelligence_k.intelligence }}</h6>
+
+			<h3 class="text-center" style="color: gold;">매력쟁이</h3>
+			<h6 class="text-center">{{ charm_k.name }} 매력 {{ charm_k.charm }}</h6>
+
+			<h3 class="text-center" style="color: green;">잉여킹</h3>
+			<h6 class="text-center">{{ surplus_k.name }} 잉여력 {{ surplus_k.surplus }}</h6>
+
+			<h3 class="text-center" style="color: blue;">행운아</h3>
+			<h6 class="text-center">{{ luck_k.name }} 행운 {{ luck_k.luck }}</h6>
+		</div>
+
+		<div class="container hidden-xs">
+			<h2 class="text-center">랭킹</h2>
+
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-5">
+					<h3 class="text-center" style="color: red;">강철체력</h3>
+					<h6 class="text-center">{{ strength_k.name }} 체력 {{ strength_k.strength }}</h6>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-2">
+					<h3 class="text-center" style="color: blue;">행운아</h3>
+					<h6 class="text-center">{{ luck_k.name }} 행운 {{ luck_k.luck }}</h6>
+				</div>
+				<div class="col-sm-2 col-sm-offset-4">
+					<h3 class="text-center" style="color: orange;">똑똑박사</h3>
+					<h6 class="text-center">{{ intelligence_k.name }} 지력 {{ intelligence_k.intelligence }}</h6>
+				</div>
+			</div>
+
+			<div class="row" style="position: relative; top: -30px;">
+
+				<h3 class="text-center">종합 순위</h3>
+
+				{% for avatar in list %}
+					<p class="text-center">{{avatar.name}} 능력치 총합 {{avatar.sum}}</p>
+				{% endfor %}
+
+			</div>
+
+			<div class="row">
+				<div class="col-sm-2 col-sm-offset-3">
+					<h3 class="text-center" style="color: green;">잉여킹</h3>
+					<h6 class="text-center">{{ surplus_k.name }} 잉여력 {{ surplus_k.surplus }}</h6>
+				</div>
+				<div class="col-sm-2 col-sm-offset-2">
+					<h3 class="text-center" style="color: gold;">매력쟁이</h3>
+					<h6 class="text-center">{{ charm_k.name }} 매력 {{ charm_k.charm }}</h6>
+				</div>
+			</div>
+
+			<br>
+
+			<p class="text-center">※ 동점자는 한 분반만 표시됩니다</p>
+		</div>
+
+		{% include "tycoon/footer.html" %}
+	</body>
+</html>

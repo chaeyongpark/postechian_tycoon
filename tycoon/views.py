@@ -5,6 +5,7 @@ from .models import Map, Close, Item, Avatar, Contain, Combination, CodeToItem, 
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 
 def home(request):
 	is_closed = Close.objects.get(id=1).is_closed;
@@ -19,6 +20,24 @@ def map(request):
 	image = Map.objects.get(id=1).image;
 
 	return render(request, 'tycoon/map.html', {'image': image})
+
+@login_required(login_url='/login/')
+def ranking(request):
+	users = User.objects.filter(username__startswith='class')
+	avatars = [ Avatar.objects.get(host=users[i].id) for i in range(len(users))]
+	ranking = sorted(avatars, key= lambda t: t.sum(), reverse=True)
+
+	strength_k = sorted(avatars, key= lambda t: t.strength, reverse=True)[0]
+	intelligence_k = sorted(avatars, key= lambda t: t.intelligence, reverse=True)[0]
+	charm_k = sorted(avatars, key= lambda t: t.charm, reverse=True)[0]
+	surplus_k = sorted(avatars, key= lambda t: t.surplus, reverse=True)[0]
+	luck_k = sorted(avatars, key= lambda t: t.luck, reverse=True)[0]
+	return render(request, 'tycoon/ranking.html', {'list': ranking[:3],
+		'strength_k': strength_k,
+		'intelligence_k': intelligence_k,
+		'charm_k': charm_k,
+		'surplus_k': surplus_k,
+		'luck_k': luck_k})
 
 @login_required(login_url='/login/')
 def combination(request):
@@ -65,13 +84,14 @@ def combination(request):
 				print "Combination doesn't exist"
 				return JsonResponse({'nitem': {'id': 0, 'url': 'null', 'explanataion': 'Combination does not exist' }})
 		
+		new_item = Item.objects.get(id=comb.new_item.id)
+		avatar.item_list.add(new_item)
+
 		# Check if this request for actual combination command
 		if request.POST.get('real', None) == "true":
 			print "User actually requested combination"
 			left_item_contain.delete()
 			right_item_contain.delete()
-			new_item = Item.objects.get(id=comb.new_item.id)
-			avatar.item_list.add(new_item)
 			new_contain = Contain(name=avatar, item=new_item)
 			new_contain.save()
 			avatar.strength += comb.strength_b

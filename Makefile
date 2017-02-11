@@ -10,7 +10,6 @@ all:
 	./manage.py loaddata initial_data/mission.json
 	./manage.py loaddata initial_data/ice_breaking.json
 	./manage.py loaddata initial_data/initial_etc.json
-	./manage.py loaddata initial_data/mission.json
 
 codeToItem:
 	./manage.py loaddata initial_data/codeToItem_1_to_240.json
@@ -24,3 +23,10 @@ item:
 
 ice_breaking:
 	./manage.py loaddata initial_data/ice_breaking.json
+
+combination:
+	./manage.py loaddata initial_data/initial_combination_1.json
+	./manage.py loaddata initial_data/initial_combination_2.json
+
+mission:
+	./manage.py loaddata initial_data/mission.json

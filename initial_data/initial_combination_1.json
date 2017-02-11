@@ -10,7 +10,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "청암에서 밤을 세고 학식을 먹음!"
 		}	
 	},
@@ -23,7 +23,7 @@
 			"new_item": 1,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "혼밥러가 수업가기 전에 학식을 먹음!"
@@ -37,7 +37,7 @@
 			"item2": 4,
 			"new_item": 1,
 			"strength_b": 1,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -54,7 +54,7 @@
 			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "혼밥 중독자가 학식을 먹음!"
 		}	
@@ -67,7 +67,7 @@
 			"item2": 17,
 			"new_item": 1,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -81,7 +81,7 @@
 			"item1": 15,
 			"item2": 17,
 			"new_item": 2,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -99,7 +99,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "주말에도 공부를 하러 청암에 가는 성실쟁이군요구르트~"
 		}	
@@ -115,7 +115,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "청암에서는 공부가 2배로 잘된다네요!"
 		}	
 	},
@@ -129,7 +129,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "청암데이트 뀨~.~♡ "
 		}	
@@ -143,7 +143,7 @@
 			"new_item": 3,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "집에 있는 내 방에 중독되버리기~~"
@@ -157,7 +157,7 @@
 			"item2": 32,
 			"new_item": 4,
 			"strength_b": 1,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -173,7 +173,7 @@
 			"new_item": 4,
 			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "학식을 먹고 수업을 가기위해 78계단을 올랐다!"
@@ -188,7 +188,7 @@
 			"new_item": 4,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "수업시간에 시험을 치러 78계단을 올랐다!"
@@ -201,7 +201,7 @@
 			"item1": 3,
 			"item2": 16,
 			"new_item": 4,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -218,7 +218,7 @@
 			"new_item": 5,
 			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "78계단을 2번 오르면 거의 체육관 운동!"
@@ -233,7 +233,7 @@
 			"new_item": 5,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "치킨중독자에게는 체육관 운동이 필수죠!ㅎㅎ"
@@ -247,7 +247,7 @@
 			"item2": 30,
 			"new_item": 5,
 			"strength_b": 1,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -263,7 +263,7 @@
 			"new_item": 6,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "과탑 2번하면 장학금이 펑펑!"
@@ -279,7 +279,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "청암을 자주가면 장학금이 팡팡!"
 		}	
@@ -291,7 +291,7 @@
 			"item1": 19,
 			"item2": 46,
 			"new_item": 6,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -309,7 +309,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "시험을 치고나니 과탑이 되어 장학금을 받았다람쥐!"
 		}	
@@ -324,7 +324,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "장짤러(장학금에 짤리게 된 사람)가 공부를 열심히해서 면학장학금을 지켜내었다! 유후!"
 		}	
@@ -338,7 +338,7 @@
 			"new_item": 6,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "장짤러(장학금에 짤리게 된 사람)가 청암에서 빡공하여 면학장학금을 지켜내었다! 유후!"
@@ -352,7 +352,7 @@
 			"item2": 25,
 			"new_item": 6,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -366,7 +366,7 @@
 			"item1": 17,
 			"item2": 36,
 			"new_item": 7,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -381,7 +381,7 @@
 			"item1": 20,
 			"item2": 42,
 			"new_item": 7,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -398,7 +398,7 @@
 			"new_item": 7,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "여행을 가기로 한 날 지각을 하여 혼밥하게 되었다.."
@@ -412,7 +412,7 @@
 			"item2": 40,
 			"new_item": 7,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -426,7 +426,7 @@
 			"item1": 39,
 			"item2": 1,
 			"new_item": 7,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -441,10 +441,10 @@
 			"item1": 16,
 			"item2": 36,
 			"new_item": 7,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "동아리가 소멸하여 혼밥을 하게되었다.."
 		}	
@@ -456,7 +456,7 @@
 			"item1": 45,
 			"item2": 39,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -471,7 +471,7 @@
 			"item1": 22,
 			"item2": 39,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -490,7 +490,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "평일에 ☆☆(2별)을 한 후 술을 마셨다.."
 		}	
 	},
@@ -502,7 +502,7 @@
 			"item2": 29,
 			"new_item": 9,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -518,9 +518,9 @@
 			"new_item": 9,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
-			"luck_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 1,
 			"explanation": "F를 받아 장짤을 당해 술을 마셨다..★"
 		}	
 	},
@@ -531,7 +531,7 @@
 			"item1": 18,
 			"item2": 18,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -546,7 +546,7 @@
 			"item1": 13,
 			"item2": 18,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -561,7 +561,7 @@
 			"item1": 11,
 			"item2": 18,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -578,9 +578,9 @@
 			"new_item": 9,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
-			"luck_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 1,
 			"explanation": "진정한 술쟁이는 술로 라이징썬(rising sun)!"
 		}	
 	},
@@ -592,7 +592,7 @@
 			"item2": 41,
 			"new_item": 9,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -606,7 +606,7 @@
 			"item1": 13,
 			"item2": 41,
 			"new_item": 9,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -623,7 +623,7 @@
 			"new_item": 9,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "군대에서 제대한 후 혼밥러가 되어 오늘도 술을 마신다..★"
@@ -637,9 +637,9 @@
 			"item2": 9,
 			"new_item": 10,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "RC에서 술을 마셔 퇴사를 당했다.."
 		}	
@@ -653,7 +653,7 @@
 			"new_item": 10,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "종강하고 집에 가려고 퇴사를 하였다!! 집으로 가자미~~~"
@@ -666,10 +666,10 @@
 			"item1": 12,
 			"item2": 43,
 			"new_item": 10,
-			"strength_b": 0,
-			"intelligence_b": 0,
+			"strength_b": 1,
+			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "방학에 집에 가려고 퇴사를 하였다!! 집으로 가자미~~~"
 		}	
@@ -685,7 +685,7 @@
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "군대에 가려고 방에서 퇴사하였다! 충성!"
 		}	
 	},
@@ -698,7 +698,7 @@
 			"new_item": 10,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "재해에 의해 방이 소멸하여 퇴사당했다.."
@@ -712,10 +712,10 @@
 			"item2": 19,
 			"new_item": 1,
 			"strength_b": 1,
-			"intelligence_b": 2,
-			"charm_b": 3,
-			"surplus_b": 4,
-			"luck_b": 5,
+			"intelligence_b": 0,
+			"charm_b": 0,
+			"surplus_b": 1,
+			"luck_b": 0,
 			"explanation": "청암에서 밤을 세고 학식을 먹음!"
 		}	
 	},
@@ -730,7 +730,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "종강하고 방학이 지나면 또 다시 개강이죠"
 		}	
 	},
@@ -742,9 +742,9 @@
 			"item2": 36,
 			"new_item": 11,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "방학이 소멸하고 개강이 찾아옴"
 		}	
@@ -758,7 +758,7 @@
 			"new_item": 11,
 			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "운동을 열심히 하여 개강한 대학생이 됨"
@@ -774,7 +774,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "개강하면 술들고 형산강 꼭 한번 가보세요"
 		}	
@@ -790,7 +790,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "개강하고 종강을 하고 나면 방학입니다!"
 		}	
 	},
@@ -804,7 +804,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방에서 공부(배울 학)! 방학입니다."
 		}	
@@ -818,7 +818,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방에만 있어도 되는 기간, 방학이죠"
@@ -832,7 +832,7 @@
 			"item2": 20,
 			"new_item": 12,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -848,7 +848,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방에서 꿀잠을 자도 되는 기간, 방학이죠"
@@ -861,10 +861,10 @@
 			"item1": 3,
 			"item2": 23,
 			"new_item": 12,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "지각 걱정 없이 방에만 있어도 되는 기간, 방학이죠"
 		}	
@@ -878,7 +878,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "방학을 하면 쭉 공강이라 방에만 있어도 상관이 없어요!"
@@ -893,7 +893,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "방학을 하면 모두들 집으로 갑니다. 역시 집이 최고!"
@@ -906,7 +906,7 @@
 			"item1": 20,
 			"item2": 43,
 			"new_item": 12,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -922,9 +922,9 @@
 			"item2": 43,
 			"new_item": 12,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "방학중엔 과제, 시험 걱정없이 집에서 꿀잠!"
 		}	
@@ -936,7 +936,7 @@
 			"item1": 15,
 			"item2": 36,
 			"new_item": 12,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -953,7 +953,7 @@
 			"new_item": 12,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방학계획을 열심히 세워봤자 현실은 집에서 방콕임"
@@ -969,7 +969,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "공부를 아무리 하고 싶어도 방학이면 집에서 하세요"
 		}	
@@ -985,7 +985,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "방학하고 개강하고 열심히 공부하다 보면 곧 종강이 올겁니다. 힘내세요"
 		}	
 	},
@@ -1000,7 +1000,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "종강날에는 개강 이후의 고통을 잊고 파뤼!"
 		}	
 	},
@@ -1013,7 +1013,7 @@
 			"new_item": 13,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "중간고사를 치고 기말까지 끝내면 비로소 종강!"
@@ -1026,11 +1026,11 @@
 			"item1": 33,
 			"item2": 5,
 			"new_item": 13,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
-			"luck_b": 1,
+			"luck_b": 0,
 			"explanation": "교수님이 체육관에서 운동하다 '종강'이를 다치셨습니다 TT"
 		}	
 	},
@@ -1043,7 +1043,7 @@
 			"new_item": 13,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "교수님이 사라지면 강제 종강이겠죠? 그렇다고 나쁜마음 품으면 안되요"
@@ -1060,7 +1060,7 @@
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "주말을 포기하여 돈을 아꼈습니다. 주말에 사라지는 당신의 잔고에 주의하세요"
 		}	
 	},
@@ -1074,7 +1074,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "장짤당하면 알바를 해서 돈을 벌어야 하죠... B-에 유의하세요"
 		}	
@@ -1086,7 +1086,7 @@
 			"item1": 8,
 			"item2": 36,
 			"new_item": 15,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -1103,7 +1103,7 @@
 			"new_item": 15,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "술이 사라지면 그때는 공부를 하지 않을까요?"
@@ -1119,7 +1119,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "78계단 위의 학생회관에서 동아리 활동을 열심히!"
 		}	
@@ -1132,7 +1132,7 @@
 			"item2": 19,
 			"new_item": 16,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -1146,27 +1146,12 @@
 			"item1": 15,
 			"item2": 16,
 			"new_item": 17,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "공부도 동아리도 함께하는 당신! You Are My Friend"
-		}	
-	},
-	{
-		"model": "tycoon.combination",
-		"pk": 78,
-		"fields": {
-			"item1": 32,
-			"item2": 27,
-			"new_item": 4,
-			"strength_b": 1,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 0,
-			"luck_b": 0,
-			"explanation": "평일에 수업을 들으러 78을 ㅜㅜ"
 		}	
 	},
 	{
@@ -1179,7 +1164,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "학식에서 혼밥하는 친구와 밥을 같이 먹어주세요"
 		}	
@@ -1194,7 +1179,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "방학동안 보지 못했던 친구들을 개강을 하면 만날 수 있습니다"
 		}	
@@ -1224,7 +1209,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "동아리엠티는 동아리원들과 친분을 쌓을 좋은 기회입니다"
 		}	
@@ -1239,7 +1224,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "술쟁이들끼리는 정말 좋은 친구가 될거에요"
 		}	
@@ -1251,7 +1236,7 @@
 			"item1": 7,
 			"item2": 7,
 			"new_item": 17,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -1266,7 +1251,7 @@
 			"item1": 39,
 			"item2": 39,
 			"new_item": 17,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1282,7 +1267,7 @@
 			"item2": 43,
 			"new_item": 17,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -1300,7 +1285,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "동아리방에 가면 친구들이 있죠"
 		}	
 	},
@@ -1312,7 +1297,7 @@
 			"item2": 41,
 			"new_item": 17,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -1329,7 +1314,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "친구도 친구, 친구의 친구도 친구!"
 		}	
@@ -1345,7 +1330,7 @@
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "동아리 친구들과 함께 MT를 떠나보세요!"
 		}	
 	},
@@ -1356,7 +1341,7 @@
 			"item1": 16,
 			"item2": 42,
 			"new_item": 18,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -1373,7 +1358,7 @@
 			"new_item": 18,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "친구들과 함께 즐거운 MT여행을 떠나보세요!"
@@ -1388,7 +1373,7 @@
 			"new_item": 18,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "새내기 여러분들 개강 이후 첫 여행은 즐거운 MT가 될거에요. 즐겁고 안전하게 놀다오세요"
@@ -1401,7 +1386,7 @@
 			"item1": 13,
 			"item2": 46,
 			"new_item": 18,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1417,7 +1402,7 @@
 			"item2": 40,
 			"new_item": 18,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -1433,9 +1418,9 @@
 			"new_item": 18,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
-			"luck_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 1,
 			"explanation": "재밌는 술게임이 넘쳐나는 즐거운 MT!"
 		}	
 	},
@@ -1446,7 +1431,7 @@
 			"item1": 9,
 			"item2": 16,
 			"new_item": 18,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1463,7 +1448,7 @@
 			"new_item": 19,
 			"strength_b": 1,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "친구와 치킨이 함께라면 밤을 새도 상관 없죠"
@@ -1480,7 +1465,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "친구와 게임을 하며 밤을 샜습니다"
 		}	
 	},
@@ -1493,7 +1478,7 @@
 			"new_item": 19,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "친구집에가면 밤새고 놀아야죠"
@@ -1510,7 +1495,7 @@
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "동아리를 두개나 하면 바빠서 밤을 새야 할거에요. 너무 무리하지 마세요"
 		}	
 	},
@@ -1523,7 +1508,7 @@
 			"new_item": 20,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "엠티날 밤을 새고 나면 늦잠을 잘 수 밖에 없죠"
@@ -1538,7 +1523,7 @@
 			"new_item": 20,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "밤샘을 반복하면 체력이 떨어져 알람도 못듣고 늦잠을 자고 말거에요 TT"
@@ -1553,7 +1538,7 @@
 			"new_item": 20,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "이별후에 눈물로 밤을 지새다가 결국 늦잠을..."
@@ -1567,7 +1552,7 @@
 			"item2": 22,
 			"new_item": 21,
 			"strength_b": 1,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 0,
@@ -1584,7 +1569,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "평일에 공강이라니 꿀잠자야지~"
 		}	
@@ -1600,7 +1585,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "축제라서 수업이 없으니 늦잠을 자야겠다!"
 		}	
 	},
@@ -1612,7 +1597,7 @@
 			"item2": 30,
 			"new_item": 21,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -1629,7 +1614,7 @@
 			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "오늘은 밤을 안 새워도 된다!!꿀잠각~~"
 		}	
@@ -1644,7 +1629,7 @@
 			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "어제 과제때문에 밤을 새우고 집에 왔다..잠이나 푹 자야지"
 		}	
@@ -1674,7 +1659,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "주말엔 오랜만에 집에서 가서 친구랑 놀아야지~"
 		}	
@@ -1688,7 +1673,7 @@
 			"new_item": 22,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "연애를 하니 평일이 금방 지나가고 벌써 주말이네! 오늘은 같이 뭘 먹으러 갈까ㅎ.ㅎ"
@@ -1701,7 +1686,7 @@
 			"item1": 27,
 			"item2": 20,
 			"new_item": 23,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1720,7 +1705,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "밤새서 공부했더니 수업에 지각해버렸어ㅠㅠ"
 		}	
 	},
@@ -1731,7 +1716,7 @@
 			"item1": 8,
 			"item2": 19,
 			"new_item": 23,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1749,7 +1734,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "동아리 공연 준비때문에 밤을 새서 다음날 수업에 늦어버렸다ㅜㅜ"
 		}	
@@ -1765,7 +1750,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "어제도 밤샘, 오늘도 밤샘..수업에 제때 가는 날이 없어!"
 		}	
 	},
@@ -1777,7 +1762,7 @@
 			"item2": 29,
 			"new_item": 24,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -1793,9 +1778,9 @@
 			"new_item": 24,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
-			"luck_b": 0,
+			"charm_b": 1,
+			"surplus_b": 0,
+			"luck_b": 1,
 			"explanation": "시험인 걸 잊어버렸다! 난 F야.."
 		}	
 	},
@@ -1806,7 +1791,7 @@
 			"item1": 28,
 			"item2": 28,
 			"new_item": 24,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1822,9 +1807,9 @@
 			"item2": 20,
 			"new_item": 24,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "늦잠자서 계속 수업을 못 갔더니 F가 떴다..!"
 		}	
@@ -1852,9 +1837,9 @@
 			"item2": 42,
 			"new_item": 24,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "오늘 시험인데 여행와버렸다...F 받아버리기~"
 		}	
@@ -1866,7 +1851,7 @@
 			"item1": 42,
 			"item2": 30,
 			"new_item": 24,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -1883,7 +1868,7 @@
 			"new_item": 24,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "교수님한테 찍혔다! 난 F야..."
@@ -1897,9 +1882,9 @@
 			"item2": 36,
 			"new_item": 24,
 			"strength_b": 0,
-			"intelligence_b": 0,
-			"charm_b": 0,
-			"surplus_b": 1,
+			"intelligence_b": 1,
+			"charm_b": 1,
+			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "오늘도 내일도 게임, 게임, 게임! 내 학점은 F!"
 		}	
@@ -1911,7 +1896,7 @@
 			"item1": 33,
 			"item2": 26,
 			"new_item": 25,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -1926,7 +1911,7 @@
 			"item1": 33,
 			"item2": 45,
 			"new_item": 25,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 1,
 			"surplus_b": 0,
@@ -1942,7 +1927,7 @@
 			"item2": 15,
 			"new_item": 25,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 1,
 			"luck_b": 0,
@@ -1958,7 +1943,7 @@
 			"new_item": 25,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "교수님 : 자네, 군대 갔다와서 오랜만에 공부하려니 힘들지?"
@@ -1971,7 +1956,7 @@
 			"item1": 33,
 			"item2": 35,
 			"new_item": 25,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -1990,7 +1975,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "장짤을 당해서 교수님의 관심 대상이 되어버렸다!"
 		}	
 	},
@@ -2003,7 +1988,7 @@
 			"new_item": 25,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "난 수업보다 동아리가 좋아! 그렇게 교수님의 관심을 받게 되고.."
@@ -2019,7 +2004,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "밤새서 공부했더니 이번 시험에서 과탑을 했다!"
 		}	
@@ -2034,7 +2019,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "시험은 나에게 축제지~~"
 		}	
@@ -2046,7 +2031,7 @@
 			"item1": 15,
 			"item2": 39,
 			"new_item": 26,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -2064,7 +2049,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "방에서 공부만 했다..이번 학기 과탑은 나의 것!"
 		}	
@@ -2080,7 +2065,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "주말이 다 지나 평일이 다시 왔다..!"
 		}	
 	},
@@ -2093,7 +2078,7 @@
 			"new_item": 27,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "연애를 하니 주말이 금방 지나가고 벌써 평일이네! 오늘은 같이 뭘 먹으러 갈까ㅎ.ㅎ"
@@ -2107,7 +2092,7 @@
 			"item2": 20,
 			"new_item": 28,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 1,
@@ -2123,7 +2108,7 @@
 			"new_item": 28,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "헉 오늘도 주말인 줄 알았다! 어쩔 수 없군..자체 공강~"
@@ -2136,7 +2121,7 @@
 			"item1": 36,
 			"item2": 48,
 			"new_item": 28,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -2169,7 +2154,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 1,
 			"explanation": "교수님이 여행을 가셔서 오늘은 공강!"
 		}	
@@ -2181,7 +2166,7 @@
 			"item1": 33,
 			"item2": 36,
 			"new_item": 28,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -2197,7 +2182,7 @@
 			"item2": 32,
 			"new_item": 28,
 			"strength_b": 0,
-			"intelligence_b": 0,
+			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
 			"luck_b": 1,
@@ -2213,7 +2198,7 @@
 			"new_item": 28,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "오늘은 78을 오를 필요가 없지ㅎㅎ왜냐면 공강이거든!"
@@ -2230,7 +2215,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "벚꽃의 꽃말은 중간고사"
 		}	
 	},
@@ -2241,7 +2226,7 @@
 			"item1": 45,
 			"item2": 19,
 			"new_item": 29,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -2260,7 +2245,7 @@
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "개강하고 벚꽃이 피었다! 그 말은 곧 시험이라는 것이겠지.."
 		}	
 	},
@@ -2273,7 +2258,7 @@
 			"new_item": 30,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "이것도 중독 저것도 중독 모든 것에 중독되어버렸다!"
@@ -2288,7 +2273,7 @@
 			"new_item": 31,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "꾸준히 알코올을 섭취한 결과 포스테키안 은(는) 술쟁이로 진화하였다!"
@@ -2301,7 +2286,7 @@
 			"item1": 9,
 			"item2": 30,
 			"new_item": 31,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -2320,7 +2305,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 0,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "술을 마시다 보니 벌써 해가 뜨네.."
 		}	
 	},
@@ -2335,7 +2320,7 @@
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
-			"luck_b": 0,
+			"luck_b": 1,
 			"explanation": "술을 마실 때마저도 공부를 하니까 과탑은 껌이겠지?"
 		}	
 	},
@@ -2349,7 +2334,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "오늘은 이 친구 만나서 술 한잔, 내일은 저 친구 만나서 술 한잔"
 		}	
@@ -2361,7 +2346,7 @@
 			"item1": 28,
 			"item2": 36,
 			"new_item": 32,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 1,
 			"charm_b": 0,
 			"surplus_b": 0,
@@ -2379,7 +2364,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "매 수업 시간 10분 전이면 방에서부터 78까지 꽉 매우고 있는 포스테키안을 볼 수 있다"
 		}	
@@ -2394,7 +2379,7 @@
 			"strength_b": 0,
 			"intelligence_b": 1,
 			"charm_b": 0,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "수업을 듣고 공부를 하기 위해 78계단을 올라간다"
 		}	
@@ -2408,7 +2393,7 @@
 			"new_item": 33,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "교수님은 어떻게 교수님이 되셨나요? 공부하고..공부하고..또 공부하고.."
@@ -2423,7 +2408,7 @@
 			"new_item": 33,
 			"strength_b": 0,
 			"intelligence_b": 1,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 0,
 			"explanation": "교수님은 어떻게 교수님이 되셨나요? 수업이 너무 재밌어서..수업이 너무 좋아서.."
@@ -2436,7 +2421,7 @@
 			"item1": 8,
 			"item2": 8,
 			"new_item": 34,
-			"strength_b": 0,
+			"strength_b": 1,
 			"intelligence_b": 0,
 			"charm_b": 0,
 			"surplus_b": 1,
@@ -2453,7 +2438,7 @@
 			"new_item": 34,
 			"strength_b": 0,
 			"intelligence_b": 0,
-			"charm_b": 0,
+			"charm_b": 1,
 			"surplus_b": 0,
 			"luck_b": 1,
 			"explanation": "어! 내 장학금 어디갔지????????"
@@ -2469,7 +2454,7 @@
 			"strength_b": 0,
 			"intelligence_b": 0,
 			"charm_b": 1,
-			"surplus_b": 0,
+			"surplus_b": 1,
 			"luck_b": 0,
 			"explanation": "슬프다고 매일 술만 마시면 다른 것과도 이별할 수 있어요.."
 		}	
