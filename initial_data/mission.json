@@ -1,0 +1,130 @@
+[
+	{
+		"model": "tycoon.mission",
+		"pk": 1,
+		"fields": {
+			"name": "렛 미 테이커 셀피",
+			"explanation": "분반 전원의 얼굴이 셀카에 나오게 하라!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 2,
+		"fields": {
+			"name": "앙 분반띠",
+			"explanation": "분반 전원이 참여하여 분반을 표현하는 사진을 찍어라!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 3,
+		"fields": {
+			"name": "점프샷",
+			"explanation": "제곧내"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 4,
+		"fields": {
+			"name": "포스텍 동물원",
+			"explanation": "새준위와 함께 사진을 찍어라!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 5,
+		"fields": {
+			"name": "78공고 이쁘다",
+			"explanation": "78공고에 있는 길 위에 분반 전원이 모여서 사진 찍기!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 6,
+		"fields": {
+			"name": "관종 테마기획팀장",
+			"explanation": "관심종자인 테마기획팀장과 사진을 찍어라!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 7,
+		"fields": {
+			"name": "잡았다 요놈",
+			"explanation": "사복입은 새준위와 사진찍기!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 8,
+		"fields": {
+			"name": "마네킹 챌린지",
+			"explanation": "분반전원 마네킹 챌린지 하기! (동영상)"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 9,
+		"fields": {
+			"name": "우리는 모두 친구",
+			"explanation": "서로 밥먹여주는 동영상 찍기 (전원이 먹어야함~)"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 10,
+		"fields": {
+			"name": "파도타기",
+			"explanation": "분반 전원이 들어간 파도타기 동영상찍기"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 11,
+		"fields": {
+			"name": "칭찬합시다",
+			"explanation": "서로를 칭찬하는 동영상 찍기 (랩하면 더 인정)"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 12,
+		"fields": {
+			"name": "누가자래",
+			"explanation": "강연 혹은 다른 행사 때 자고있는 친구들의 사진을 찍은 후 하나로 모아서 인증!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 13,
+		"fields": {
+			"name": "마스터피스 무비 메이커",
+			"explanation": "새터영상 일부를 따라해보자"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 14,
+		"fields": {
+			"name": "밥 마이쪙",
+			"explanation": "밥 다먹고 인증사진! 아무튼 다먹어야함!!!"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 15,
+		"fields": {
+			"name": "삼행시",
+			"explanation": "모든 분반애들의 이름으로 삼행시를 만들어 보자"
+		}	
+	},
+	{
+		"model": "tycoon.mission",
+		"pk": 16,
+		"fields": {
+			"name": "아이템 마스터",
+			"explanation": "아이템도감 25개이상 열기!"
+		}	
+	}
+]

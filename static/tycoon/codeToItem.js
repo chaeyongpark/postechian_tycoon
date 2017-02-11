@@ -28,14 +28,14 @@ $.ajaxSetup({
     }
 });
 
-var do_animation = function(index, item_img) {
+var do_animation = function(index, item_img, message) {
 	if (index == 0) {
 		$("img#code_to_item_box").attr("src", "/static/tycoon/code_to_item_box/01_new_box.png");
-		setTimeout(function() { do_animation(1, item_img) }, 500);
+		setTimeout(function() { do_animation(1, item_img, message) }, 500);
 	}
 	else if (1 <= index && index < 14) {
 		$("img#code_to_item_box").attr("src", "/static/tycoon/code_to_item_box/" + (index < 10 ? "0" : "") + index + "_new_box.png");
-		setTimeout(function() { do_animation(index + 1, item_img) }, 75);
+		setTimeout(function() { do_animation(index + 1, item_img, message) }, 75);
 	}
 	else if (index == 14) {
 		$("img#code_to_item_box").attr("src", "/static/tycoon/code_to_item_box/14_new_box.png");
@@ -46,6 +46,7 @@ var do_animation = function(index, item_img) {
 			$("img#code_to_item_box").animate({
 				opacity: 100
 			}, 1000, function() {
+				alert(message);
 				$("form#codeToItemForm :input").prop("disabled", false);
 			});
 		});
@@ -62,6 +63,6 @@ $("form#codeToItemForm").submit(function (e) {
 		url: "/codeToItem/",
 		data: { codeToItem: $("input#codeToItem").val() },
 	}).done(function(data) {
-		do_animation(0, data.item_img);
+		do_animation(0, data.item_img, data.message);
 	});
 });
