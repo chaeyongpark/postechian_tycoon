@@ -1,4 +1,9 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@font-face {
+   font-family: koverwatch;
+   src: url('static/koverwatch.eot');
+   src: local(※), url('static/koverwatch.woff') format('woff')
+}
 
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */

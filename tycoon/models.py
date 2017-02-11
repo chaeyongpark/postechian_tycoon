@@ -6,6 +6,7 @@ from django.db import models
 @python_2_unicode_compatible
 class Title(models.Model):
 	name = models.CharField(max_length=20)
+	color = models.CharField(max_length=20, default='orange')
 
 	def __str__(self):
 		return self.name

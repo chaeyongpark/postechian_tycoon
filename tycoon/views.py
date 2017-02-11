@@ -186,7 +186,8 @@ def avatar(request, id=None):
 		id = request.user.id
 	avatar = Avatar.objects.get(host=id)
 	maximum = max([avatar.strength, avatar.intelligence, avatar.luck, avatar.surplus, avatar.charm]) / 5 * 5 + 5
-	return render(request, 'tycoon/avatar.html', {'avatar': avatar, 'maximum': maximum })
+	title_list = avatar.title_list.all()
+	return render(request, 'tycoon/avatar.html', {'avatar': avatar, 'maximum': maximum, 'title_list': title_list })
 
 @login_required(login_url='/login/')
 def codeToItem(request):

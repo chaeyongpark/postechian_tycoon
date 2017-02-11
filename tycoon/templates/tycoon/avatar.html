@@ -20,6 +20,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="row">
+					<h1 class="text-center">칭호</h1>
+					{% for title in title_list %}
+					<h2 class="text-center"><span style="background-color: {{ title.color }}; color: white; padding: 10px; font-family: koverwatch, 'Jeju Gothic', sans-serif; font-style: italic;">{{ title.name }}</span></h2>
+					{% endfor %}
+					<br>
+				</div>
+			</div>
 		</div>
 		
 		<!-- CHART -->
