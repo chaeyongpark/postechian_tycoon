@@ -46,7 +46,12 @@ var do_animation = function(index, item_img, message) {
 			$("img#code_to_item_box").animate({
 				opacity: 100
 			}, 1000, function() {
-				alert(message);
+				if (message == "used")
+					alert("이미 사용된 코드입니다 ㅠㅠ");
+				else if (message == "wrong")
+					alert("잘못된 코드입니다!");
+				else
+					alert("축하합니다! 다음 아이템을 얻었습니다: " + message);
 				$("form#codeToItemForm :input").prop("disabled", false);
 			});
 		});

@@ -126,27 +126,27 @@ def codeToItem(request):
 	elif request.method == 'POST':
 		res_code = request.POST.get('codeToItem', False)
 		if res_code == False:
-			message = '잘못된 코드입니다 ㅠㅠ'
+			message = 'wrong'
 			item_img_url = '/static/tycoon/wrong.png'
 		else:
 			try:
 				code_to_item = CodeToItem.objects.get(code=res_code)
 				if code_to_item.is_used == True:
-					message = '이미 사용된 코드입니다 ㅠㅠ'
+					message = 'used'
 					item_img_url = '/static/tycoon/used.png'
 				else:
 					avatar = Avatar.objects.get(host=request.user.id)
 					c = Contain(name=avatar, item=code_to_item.item)				
 					c.save()
 					item_img_url = code_to_item.item.icon.url
-					message = u"축하합니다! 다음 아이템을 얻었습니다: " + code_to_item.item.name
+					message =code_to_item.item.name
 					code_to_item.is_used = True
 					code_to_item.save()
 					avatar.item_list.add(code_to_item.item)
 			except:
-				message = '잘못된 코드입니다 ㅠㅠ'
+				message = 'wrong'
 				item_img_url = '/static/tycoon/wrong.png'
-		print message
+		
 	 	return JsonResponse({'item_img': item_img_url, 'message': message})
 
 def mission(request):
