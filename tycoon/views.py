@@ -258,6 +258,7 @@ def itemBook(request):
 
 @login_required(login_url='/login/')
 def use(request):
+	return render(request, 'tycoon/close.html')
 	is_closed = Close.objects.get(id=1).is_closed;
 
 	if is_closed :
@@ -285,3 +286,24 @@ def use(request):
 	own_list = Contain.objects.filter(name__name__startswith=avatar.name).order_by('item')
 	maximum = max([avatar.strength, avatar.intelligence, avatar.luck, avatar.surplus, avatar.charm]) / 5 * 5 + 5
 	return render(request, 'tycoon/use.html', {'avatar': avatar, 'clist': own_list, 'maximum': maximum })
+
+def maze101(request):
+	return render(request, 'tycoon/maze.html', {'img': 'sfiojwefklsdvnewjf.png'})
+
+def maze102(request):
+	return render(request, 'tycoon/maze.html', {'img': 'rfebefoibjhdsaofijaseof.png'})
+
+def maze103(request):
+	return render(request, 'tycoon/maze.html', {'img': 'qwoljusodlikospdjnbvo.png'})
+
+def maze201(request):
+	return render(request, 'tycoon/maze.html', {'img': 'awslojuasoidfgoisarjgb.png'})
+
+def maze202(request):
+	return render(request, 'tycoon/maze.html', {'img': 'oquwnefoisdjfvoijsdv.png'})
+
+def maze203(request):
+	return render(request, 'tycoon/maze.html', {'img': 'qoeuihosdijvopsidjvf.png'})
+
+def maze204(request):
+	return render(request, 'tycoon/maze.html', {'img': 'oeunwfosinvaosidjwefkmij.png'})
